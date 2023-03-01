@@ -1,0 +1,279 @@
+@InProceedings{Mildenhall2020NeRF,
+author="Mildenhall, Ben
+and Srinivasan, Pratul P.
+and Tancik, Matthew
+and Barron, Jonathan T.
+and Ramamoorthi, Ravi
+and Ng, Ren",
+editor="Vedaldi, Andrea
+and Bischof, Horst
+and Brox, Thomas
+and Frahm, Jan-Michael",
+title="NeRF: Representing Scenes as Neural Radiance Fields for View Synthesis",
+booktitle="Computer Vision -- ECCV 2020",
+year="2020",
+publisher="Springer International Publishing",
+address="Cham",
+pages="405--421",
+abstract="We present a method that achieves state-of-the-art results for synthesizing novel views of complex scenes by optimizing an underlying continuous volumetric scene function using a sparse set of input views. Our algorithm represents a scene using a fully-connected (non-convolutional) deep network, whose input is a single continuous 5D coordinate (spatial location (x, y, z) and viewing direction {\$}{\$}({\backslash}theta ,{\backslash}phi ){\$}{\$}) and whose output is the volume density and view-dependent emitted radiance at that spatial location. We synthesize views by querying 5D coordinates along camera rays and use classic volume rendering techniques to project the output colors and densities into an image. Because volume rendering is naturally differentiable, the only input required to optimize our representation is a set of images with known camera poses. We describe how to effectively optimize neural radiance fields to render photorealistic novel views of scenes with complicated geometry and appearance, and demonstrate results that outperform prior work on neural rendering and view synthesis. View synthesis results are best viewed as videos, so we urge readers to view our supplementary video for  convincing comparisons.",
+isbn="978-3-030-58452-8"
+}
+
+@article{Xiangli2021CityNeRF,
+  author    = {Xiangli, Yuanbo and
+               Xu, Linning and
+               Pan, Xingang and
+               Zhao, Nanxuan and
+               Rao, Anyi and
+               Theobalt, Christian and
+               Dai, Bo and
+               Lin, Dahua},
+  title     = {CityNeRF: Building NeRF at City Scale},
+  journal   = {CoRR},
+  volume    = {abs/2112.05504},
+  year      = {2021},
+  url       = {https://arxiv.org/abs/2112.05504},
+  eprinttype = {arXiv},
+  eprint    = {2112.05504},
+  timestamp = {Tue, 14 Dec 2021 14:21:31 +0100},
+  biburl    = {https://dblp.org/rec/journals/corr/abs-2112-05504.bib},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
+@article{Stucker2022ImpliCity,
+  author    = {Stucker, Corinne and
+               Ke, Bingxin and
+               Yue, Yuanwen and
+               Huang, Shengyu and
+               Armeni, Iro and
+               Schindler, Konrad},
+  title     = {ImpliCity: City Modeling from Satellite Images with Deep Implicit
+               Occupancy Fields},
+  journal   = {CoRR},
+  volume    = {abs/2201.09968},
+  year      = {2022},
+  url       = {https://arxiv.org/abs/2201.09968},
+  eprinttype = {arXiv},
+  eprint    = {2201.09968},
+  timestamp = {Tue, 01 Feb 2022 14:59:01 +0100},
+  biburl    = {https://dblp.org/rec/journals/corr/abs-2201-09968.bib},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
+@article{Turki2021Mega-NeRF,
+  author    = {Turki, Haithem and Ramanan, Deva and Satyanarayanan, Mahadev},
+  title     = {Mega-NeRF: Scalable Construction of Large-Scale NeRFs for Virtual Fly-Throughs},
+  journal   = {CoRR},
+  volume    = {abs/2112.10703},
+  year      = {2021},
+  url       = {https://arxiv.org/abs/2112.10703},
+  eprinttype = {arXiv},
+  eprint    = {2112.10703},
+  timestamp = {Tue, 04 Jan 2022 15:59:27 +0100},
+  biburl    = {https://dblp.org/rec/journals/corr/abs-2112-10703.bib},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
+@article{Tancik2022Block-NeRF,
+  author    = {Tancik, Matthew and
+               Casser, Vincent and
+               Yan, Xinchen and
+               Pradhan, Sabeek and
+               Mildenhall, Ben and
+               Srinivasan, Pratul P. and
+               Barron, Jonathan T. and
+               Kretzschmar, Henrik},
+  title     = {Block-NeRF: Scalable Large Scene Neural View Synthesis},
+  journal   = {CoRR},
+  volume    = {abs/2202.05263},
+  year      = {2022},
+  url       = {https://arxiv.org/abs/2202.05263},
+  eprinttype = {arXiv},
+  eprint    = {2202.05263},
+  timestamp = {Fri, 18 Feb 2022 12:23:53 +0100},
+  biburl    = {https://dblp.org/rec/journals/corr/abs-2202-05263.bib},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
+@INPROCEEDINGS{Martin-Brualla2021NeRF-W,
+  author={Martin-Brualla, Ricardo and Radwan, Noha and Sajjadi, Mehdi S. M. and Barron, Jonathan T. and Dosovitskiy, Alexey and Duckworth, Daniel},
+  booktitle={2021 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)}, 
+  title={NeRF in the Wild: Neural Radiance Fields for Unconstrained Photo Collections}, 
+  year={2021},
+  volume={},
+  number={},
+  pages={7206-7215},
+  abstract={We present a learning-based method for synthesizing novel views of complex scenes using only unstructured collections of in-the-wild photographs. We build on Neural Radiance Fields (NeRF), which uses the weights of a multi-layer perceptron to model the density and color of a scene as a function of 3D coordinates. While NeRF works well on images of static subjects captured under controlled settings, it is incapable of modeling many ubiquitous, real-world phenomena in uncontrolled images, such as variable illumination or transient occluders. We introduce a series of extensions to NeRF to address these issues, thereby enabling accurate reconstructions from unstructured image collections taken from the internet. We apply our system, dubbed NeRF-W, to internet photo collections of famous landmarks, and demonstrate temporally consistent novel view renderings that are significantly closer to photorealism than the prior state of the art.},
+  keywords={},
+  doi={10.1109/CVPR46437.2021.00713},
+  ISSN={2575-7075},
+  month={June},}
+
+@INPROCEEDINGS{Agarwal2009BuildingRome,
+  author={Agarwal, Sameer and Snavely, Noah and Simon, Ian and Seitz, Steven M. and Szeliski, Richard},
+  booktitle={2009 IEEE 12th International Conference on Computer Vision}, 
+  title={Building Rome in a day}, 
+  year={2009},
+  volume={},
+  number={},
+  pages={72-79},
+  abstract={We present a system that can match and reconstruct 3D scenes from extremely large collections of photographs such as those found by searching for a given city (e.g., Rome) on Internet photo sharing sites. Our system uses a collection of novel parallel distributed matching and reconstruction algorithms, designed to maximize parallelism at each stage in the pipeline and minimize serialization bottlenecks. It is designed to scale gracefully with both the size of the problem and the amount of available computation. We have experimented with a variety of alternative algorithms at each stage of the pipeline and report on which ones work best in a parallel computing environment. Our experimental results demonstrate that it is now possible to reconstruct cities consisting of 150 K images in less than a day on a cluster with 500 compute cores.},
+  keywords={},
+  doi={10.1109/ICCV.2009.5459148},
+  ISSN={2380-7504},
+  month={Sep.},}
+
+@INPROCEEDINGS{Schonberger2016SfMR,
+  author={Schönberger, Johannes L. and Frahm, Jan-Michael},
+  booktitle={2016 IEEE Conference on Computer Vision and Pattern Recognition (CVPR)}, 
+  title={Structure-from-Motion Revisited}, 
+  year={2016},
+  volume={},
+  number={},
+  pages={4104-4113},
+  abstract={Incremental Structure-from-Motion is a prevalent strategy for 3D reconstruction from unordered image collections. While incremental reconstruction systems have tremendously advanced in all regards, robustness, accuracy, completeness, and scalability remain the key problems towards building a truly general-purpose pipeline. We propose a new SfM technique that improves upon the state of the art to make a further step towards this ultimate goal. The full reconstruction pipeline is released to the public as an open-source implementation.},
+  keywords={},
+  doi={10.1109/CVPR.2016.445},
+  ISSN={1063-6919},
+  month={June},}
+
+@INPROCEEDINGS{Lindenberger2021PixelPerfectSfM,
+  author={Lindenberger, Philipp and Sarlin, Paul-Edouard and Larsson, Viktor and Pollefeys, Marc},
+  booktitle={2021 IEEE/CVF International Conference on Computer Vision (ICCV)}, 
+  title={Pixel-Perfect Structure-from-Motion with Featuremetric Refinement}, 
+  year={2021},
+  volume={},
+  number={},
+  pages={5967-5977},
+  abstract={Finding local features that are repeatable across multiple views is a cornerstone of sparse 3D reconstruction. The classical image matching paradigm detects keypoints per-image once and for all, which can yield poorly-localized features and propagate large errors to the final geometry. In this paper, we refine two key steps of structure-from-motion by a direct alignment of low-level image information from multiple views: we first adjust the initial keypoint locations prior to any geometric estimation, and subsequently refine points and camera poses as a post-processing. This refinement is robust to large detection noise and appearance changes, as it optimizes a featuremetric error based on dense features predicted by a neural network. This significantly improves the accuracy of camera poses and scene geometry for a wide range of keypoint detectors, challenging viewing conditions, and off-the-shelf deep features. Our system easily scales to large image collections, enabling pixel-perfect crowd-sourced localization at scale. Our code is publicly available at github.com/cvg/pixel-perfect-sfm as an add-on to the popular SfM software COLMAP.},
+  keywords={},
+  doi={10.1109/ICCV48922.2021.00593},
+  ISSN={2380-7504},
+  month={Oct},}
+  
+@article{Chan2021EG3D,
+  author    = {Chan, Eric R. and
+               Lin, Connor Z. and
+               Chan, Matthew A. and
+               Nagano, Koki and
+               Pan, Boxiao and
+               Mello, Shalini De and
+               Gallo, Orazio and
+               Guibas, Leonidas J. and
+               Tremblay, Jonathan and
+               Khamis, Sameh and
+               Karras, Tero and
+               Wetzstein, Gordon},
+  title     = {Efficient Geometry-aware 3D Generative Adversarial Networks},
+  journal   = {CoRR},
+  volume    = {abs/2112.07945},
+  year      = {2021},
+  url       = {https://arxiv.org/abs/2112.07945},
+  eprinttype = {arXiv},
+  eprint    = {2112.07945},
+  timestamp = {Mon, 03 Jan 2022 15:45:35 +0100},
+  biburl    = {https://dblp.org/rec/journals/corr/abs-2112-07945.bib},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
+@inproceedings{Tancik2020FFNTK,
+ author = {Tancik, Matthew and Srinivasan, Pratul and Mildenhall, Ben and Fridovich-Keil, Sara and Raghavan, Nithin and Singhal, Utkarsh and Ramamoorthi, Ravi and Barron, Jonathan and Ng, Ren},
+ booktitle = {Advances in Neural Information Processing Systems},
+ editor = {H. Larochelle and M. Ranzato and R. Hadsell and M.F. Balcan and H. Lin},
+ pages = {7537--7547},
+ publisher = {Curran Associates, Inc.},
+ title = {Fourier Features Let Networks Learn High Frequency Functions in Low Dimensional Domains},
+ url = {https://proceedings.neurips.cc/paper/2020/file/55053683268957697aa39fba6f231c68-Paper.pdf},
+ volume = {33},
+ year = {2020}
+}
+
+@article{Niemeyer2021RegNeRF,
+  author    = {Niemeyer, Michael and
+               Barron, Jonathan T. and
+               Mildenhall, Ben and
+               Sajjadi, Mehdi S. M. and
+               Geiger, Andreas and
+               Radwan, Noha},
+  title     = {RegNeRF: Regularizing Neural Radiance Fields for View Synthesis from
+               Sparse Inputs},
+  journal   = {CoRR},
+  volume    = {abs/2112.00724},
+  year      = {2021},
+  url       = {https://arxiv.org/abs/2112.00724},
+  eprinttype = {arXiv},
+  eprint    = {2112.00724},
+  timestamp = {Tue, 07 Dec 2021 12:15:54 +0100},
+  biburl    = {https://dblp.org/rec/journals/corr/abs-2112-00724.bib},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
+@InProceedings{Niemeyer2021GIRAFFE,
+    author    = {Niemeyer, Michael and Geiger, Andreas},
+    title     = {GIRAFFE: Representing Scenes As Compositional Generative Neural Feature Fields},
+    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+    month     = {June},
+    year      = {2021},
+    pages     = {11453-11464}
+}
+
+@article{Levis2022BH-NeRF,
+  author    = {Levis, Aviad and
+               Srinivasan, Pratul P. and
+               Chael, Andrew A. and
+               Ng, Ren and
+               Bouman, Katherine L.},
+  title     = {Gravitationally Lensed Black Hole Emission Tomography},
+  journal   = {CoRR},
+  volume    = {abs/2204.03715},
+  year      = {2022},
+  url       = {https://doi.org/10.48550/arXiv.2204.03715},
+  doi       = {10.48550/arXiv.2204.03715},
+  eprinttype = {arXiv},
+  eprint    = {2204.03715},
+  timestamp = {Wed, 13 Apr 2022 14:34:17 +0200},
+  biburl    = {https://dblp.org/rec/journals/corr/abs-2204-03715.bib},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
+@article{Muller2022AutoRF,
+  author    = {M{\"{u}}ller, Norman and
+               Simonelli, Andrea and
+               Porzi, Lorenzo and
+               Bul{\`{o}}, Samuel Rota and
+               Nie{\ss}ner, Matthias and
+               Kontschieder, Peter},
+  title     = {AutoRF: Learning 3D Object Radiance Fields from Single View Observations},
+  journal   = {CoRR},
+  volume    = {abs/2204.03593},
+  year      = {2022},
+  url       = {https://doi.org/10.48550/arXiv.2204.03593},
+  doi       = {10.48550/arXiv.2204.03593},
+  eprinttype = {arXiv},
+  eprint    = {2204.03593},
+  timestamp = {Wed, 13 Apr 2022 14:34:17 +0200},
+  biburl    = {https://dblp.org/rec/journals/corr/abs-2204-03593.bib},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
+@article{Wang2022FPO-NeRF,
+  author    = {Liao Wang and
+               Jiakai Zhang and
+               Xinhang Liu and
+               Fuqiang Zhao and
+               Yanshun Zhang and
+               Yingliang Zhang and
+               Minye Wu and
+               Lan Xu and
+               Jingyi Yu},
+  title     = {Fourier PlenOctrees for Dynamic Radiance Field Rendering in Real-time},
+  journal   = {CoRR},
+  volume    = {abs/2202.08614},
+  year      = {2022},
+  url       = {https://arxiv.org/abs/2202.08614},
+  eprinttype = {arXiv},
+  eprint    = {2202.08614},
+  timestamp = {Tue, 01 Mar 2022 14:36:22 +0100},
+  biburl    = {https://dblp.org/rec/journals/corr/abs-2202-08614.bib},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
