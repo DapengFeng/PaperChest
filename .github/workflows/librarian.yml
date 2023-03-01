@@ -33,9 +33,9 @@ jobs:
         with:
           python-version: '3.10' 
           
-      - name: Install bibtexparser
+      - name: Install Requirement
         run: |
-          pip install bibtexparser
+          pip install bibtexparser numpy
 
       # Automatic Generate the Awesome Readme
       - name: Generate the Awesome Readme
