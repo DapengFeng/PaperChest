@@ -53,7 +53,7 @@ jobs:
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git add bibtex
+          git add bibtex/*
           git commit -m "linting bib files"
           git add README.md
           git commit -m "Update Readme"
