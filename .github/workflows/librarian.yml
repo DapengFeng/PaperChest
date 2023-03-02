@@ -40,8 +40,8 @@ jobs:
           
       - name: Linting Bibtex 
         run: |
-          bibtex-tidy --curly --numeric --align=13 --blank-lines --sort=-year,author \
-          --duplicates=key --no-escape --sort-fields --remove-empty-fields --no-remove-dupe-fields \
+          bibtex-tidy --curly --numeric --align=13 --sort=-year,author --duplicates=key \
+          --no-escape --sort-fields --remove-empty-fields --no-remove-dupe-fields \
           --wrap=80 bibtex/*
 
       # Automatic Generate the Awesome Readme
