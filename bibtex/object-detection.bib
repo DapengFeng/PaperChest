@@ -1,3 +1,39 @@
+@inproceedings{Zhu2021FCENet,
+  title        = {Fourier Contour Embedding for Arbitrary-Shaped Text Detection},
+  author       = {
+    Zhu, Yiqin and Chen, Jianyong and Liang, Lingyu and Kuang, Zhanghui and
+    Jin, Lianwen and Zhang, Wayne
+  },
+  year         = 2021,
+  month        = {June},
+  booktitle    = {2021 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+  pages        = {3122--3130},
+  doi          = {10.1109/CVPR46437.2021.00314},
+  issn         = {2575-7075},
+  abstract     = {
+    One of the main challenges for arbitrary-shaped text detection is to design
+    a good text instance representation that allows networks to learn diverse
+    text geometry variances. Most of existing methods model text instances in
+    image spatial domain via masks or contour point sequences in the Cartesian
+    or the polar coordinate system. However, the mask representation might lead
+    to expensive post-processing, while the point sequence one may have limited
+    capability to model texts with highly-curved shapes. To tackle these
+    problems, we model text instances in the Fourier domain and propose one
+    novel Fourier Contour Embedding (FCE) method to represent arbitrary shaped
+    text contours as compact signatures. We further construct FCENet with a
+    backbone, feature pyramid networks (FP-N) and a simple post-processing with
+    the Inverse Fourier Transformation (IFT) and Non-Maximum Suppression
+    (N-MS). Different from previous methods, FCENet first pre-dicts compact
+    Fourier signatures of text instances, and then reconstructs text contours
+    via IFT and NMS during test. Extensive experiments demonstrate that FCE is
+    accurate and robust to fit contours of scene texts even with highly-curved
+    shapes, and also validate the effectiveness and the good generalization of
+    FCENet for arbitrary-shaped text detection. Furthermore, experimental
+    results show that our FCENet is superior to the state-of-the-art (SOTA)
+    meth-ods on CTW1500 and Total-Text, especially on challenging highly-curved
+    text subset.
+  },
+}
 @inproceedings{Chen2020RepPointsV2,
   title        = {RepPoints v2: Verification Meets Regression for Object Detection},
   author       = {
@@ -70,28 +106,3 @@
     https://github.com/microsoft/RepPoints.
   }
 }
-@INPROCEEDINGS{Zhu2021FCENet,
-
-  author={Zhu, Yiqin and Chen, Jianyong and Liang, Lingyu and Kuang, Zhanghui and Jin, Lianwen and Zhang, Wayne},
-
-  booktitle={2021 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)}, 
-
-  title={Fourier Contour Embedding for Arbitrary-Shaped Text Detection}, 
-
-  year={2021},
-
-  volume={},
-
-  number={},
-
-  pages={3122-3130},
-
-  abstract={One of the main challenges for arbitrary-shaped text detection is to design a good text instance representation that allows networks to learn diverse text geometry variances. Most of existing methods model text instances in image spatial domain via masks or contour point sequences in the Cartesian or the polar coordinate system. However, the mask representation might lead to expensive post-processing, while the point sequence one may have limited capability to model texts with highly-curved shapes. To tackle these problems, we model text instances in the Fourier domain and propose one novel Fourier Contour Embedding (FCE) method to represent arbitrary shaped text contours as compact signatures. We further construct FCENet with a backbone, feature pyramid networks (FP-N) and a simple post-processing with the Inverse Fourier Transformation (IFT) and Non-Maximum Suppression (N-MS). Different from previous methods, FCENet first pre-dicts compact Fourier signatures of text instances, and then reconstructs text contours via IFT and NMS during test. Extensive experiments demonstrate that FCE is accurate and robust to fit contours of scene texts even with highly-curved shapes, and also validate the effectiveness and the good generalization of FCENet for arbitrary-shaped text detection. Furthermore, experimental results show that our FCENet is superior to the state-of-the-art (SOTA) meth-ods on CTW1500 and Total-Text, especially on challenging highly-curved text subset.},
-
-  keywords={},
-
-  doi={10.1109/CVPR46437.2021.00314},
-
-  ISSN={2575-7075},
-
-  month={June},}

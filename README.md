@@ -45,6 +45,7 @@
 - **Exploring Geometry-aware Contrast and Clustering Harmonization for Self-supervised 3D Object Detection**, (2021) [[DOI]](https://doi.org/10.1109/ICCV48922.2021.00328)  [[bib]](bibtex/myself.bib#L34-L75) 
 - **Emerging Properties in Self-Supervised Vision Transformers**, (2021) [[DOI]](https://doi.org/10.1109/ICCV48922.2021.00951)  [[bib]](bibtex/pre-training.bib#L65-L93) 
 - **Learning Transferable Visual Models From Natural Language Supervision**, (2021) [[bib]](bibtex/pre-training.bib#L94-L133) 
+- **Fourier Contour Embedding for Arbitrary-Shaped Text Detection**, (2021) [[DOI]](https://doi.org/10.1109/CVPR46437.2021.00314)  [[bib]](bibtex/object-detection.bib#L1-L36) 
 - **Single View Geocentric Pose in the Wild**, (2021) [[DOI]](https://doi.org/10.1109/CVPRW53098.2021.00127)  [[bib]](bibtex/remote-sensing.bib#L473-L502) 
 - **Cumulative Assessment for Urban 3D Modeling**, (2021) [[DOI]](https://doi.org/10.1109/IGARSS47720.2021.9554754)  [[bib]](bibtex/remote-sensing.bib#L503-L526) 
 - **Inferring high-resolution traffic accident risk maps based on satellite imagery and GPS trajectories**, (2021) [[DOI]](https://doi.org/10.1109/ICCV48922.2021.01176)  [[bib]](bibtex/remote-sensing.bib#L527-L557) 
@@ -70,8 +71,8 @@
 ## Papers in 2020
 - **Momentum Contrast for Unsupervised Visual Representation Learning**, (2020) [[DOI]](https://doi.org/10.1109/CVPR42600.2020.00975)  [[bib]](bibtex/pre-training.bib#L134-L160) 
 - **A Simple Framework for Contrastive Learning of Visual Representations**, (2020) [[bib]](bibtex/pre-training.bib#L161-L195) 
-- **RepPoints v2: Verification Meets Regression for Object Detection**, (2020) [[bib]](bibtex/object-detection.bib#L1-L17) 
-- **Dense RepPoints: Representing Visual Objects with Dense Point Sets**, (2020) [[bib]](bibtex/object-detection.bib#L18-L44) 
+- **RepPoints v2: Verification Meets Regression for Object Detection**, (2020) [[bib]](bibtex/object-detection.bib#L37-L53) 
+- **Dense RepPoints: Representing Visual Objects with Dense Point Sets**, (2020) [[bib]](bibtex/object-detection.bib#L54-L80) 
 - **Few-Shot Learning For Remote Sensing Scene Classification**, (2020) [[DOI]](https://doi.org/10.1109/M2GARSS47143.2020.9105154)  [[bib]](bibtex/remote-sensing.bib#L909-L938) 
 - **Learning Geocentric Object Pose in Oblique Monocular Images**, (2020) [[DOI]](https://doi.org/10.1109/CVPR42600.2020.01452)  [[bib]](bibtex/remote-sensing.bib#L939-L971) 
 - **Geometry-Aware Satellite-to-Ground Image Synthesis for Urban Areas**, (2020) [[DOI]](https://doi.org/10.1109/CVPR42600.2020.00094)  [[bib]](bibtex/remote-sensing.bib#L972-L1001) 
@@ -83,7 +84,7 @@
 ## Papers in 2019
 - **GPipe: Efficient Training of Giant Neural Networks using Pipeline Parallelism**, (2019) [[bib]](bibtex/system.bib#L92-L114) 
 - **Rethinking ImageNet Pre-Training**, (2019) [[DOI]](https://doi.org/10.1109/ICCV.2019.00502)  [[bib]](bibtex/pre-training.bib#L196-L226) 
-- **RepPoints: Point Set Representation for Object Detection**, (2019) [[DOI]](https://doi.org/10.1109/ICCV.2019.00975)  [[bib]](bibtex/object-detection.bib#L45-L72) 
+- **RepPoints: Point Set Representation for Object Detection**, (2019) [[DOI]](https://doi.org/10.1109/ICCV.2019.00975)  [[bib]](bibtex/object-detection.bib#L81-L108) 
 - **Semantic Stereo for Incidental Satellite Images**, (2019) [[DOI]](https://doi.org/10.1109/WACV.2019.00167)  [[bib]](bibtex/remote-sensing.bib#L1036-L1065) 
 - **SpaceNet MVOI: A Multi-View Overhead Imagery Dataset**, (2019) [[DOI]](https://doi.org/10.1109/ICCV.2019.00108)  [[bib]](bibtex/remote-sensing.bib#L1066-L1106) 
 - **A Survey on Deep Learning-Driven Remote Sensing Image Scene Understanding: Scene Classification, Scene Retrieval and Scene-Guided Object Detection**, (2019) [[DOI]](https://doi.org/10.3390/app9102110)  [[bib]](bibtex/remote-sensing.bib#L1107-L1135) 
