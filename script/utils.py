@@ -68,7 +68,7 @@ def get_md_entry(DB, entry, bibfile, add_comments=True):
 
     md_str += " [[bib]](" + create_bib_link(entry['ID'], bibfile) + ") "
 
-    md_str += " by *" + keep_last_and_only(entry['author'].replace('\n',' ').strip()) + "*"
+    # md_str += " by *" + keep_last_and_only(entry['author'].replace('\n',' ').strip()) + "*"
 
     md_str += '\n'
 
