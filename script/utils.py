@@ -11,7 +11,6 @@ def keep_last_and_only(authors_str):
     last_author = authors_str.split(" and ")[-1]
 
     without_and = authors_str.replace(" and ", ", ")
-    without_and = without_and.replace(" and\n", ", ")
 
     str_ok = without_and.replace(", " + last_author, " and " + last_author)
 
@@ -60,16 +59,16 @@ def get_md_entry(DB, entry, bibfile, add_comments=True):
     :return: markdown string
     """
     md_str = ""
-    md_str += "- **" + entry['title'] + "**"
+    md_str += "- **" + entry['title'].replace('\n',' ').strip() + "**"
 
     md_str += ", (" + entry['year'] + ")"
 
-    if 'url' in entry.keys():
-        md_str += " [[paper]](" + entry['url'] + ") "
+    if 'doi' in entry.keys():
+        md_str += " [[DOI]](https://doi.org/" + entry['doi'] + ") "
 
     md_str += " [[bib]](" + create_bib_link(entry['ID'], bibfile) + ") "
 
-    md_str += " by *" + keep_last_and_only(entry['author']) + "*"
+    md_str += " by *" + keep_last_and_only(entry['author'].replace('\n',' ').strip()) + "*"
 
     md_str += '\n'
 
