@@ -7,6 +7,64 @@
   year         = 2022,
   journal      = {arXiv preprint arXiv: Arxiv-2201.12558}
 }
+@inproceedings{Yang2021GWD,
+  title        = {
+    Rethinking Rotated Object Detection with Gaussian Wasserstein Distance Loss
+  },
+  author       = {
+    Yang, Xue and Yan, Junchi and Ming, Qi and Wang, Wentao and Zhang, Xiaopeng
+    and Tian, Qi
+  },
+  year         = 2021,
+  month        = {18--24 Jul},
+  booktitle    = {Proceedings of the 38th International Conference on Machine Learning},
+  publisher    = {PMLR},
+  series       = {Proceedings of Machine Learning Research},
+  volume       = 139,
+  pages        = {11830--11841},
+  url          = {https://proceedings.mlr.press/v139/yang21l.html},
+  editor       = {Meila, Marina and Zhang, Tong},
+  pdf          = {http://proceedings.mlr.press/v139/yang21l/yang21l.pdf},
+  abstract     = {
+    Boundary discontinuity and its inconsistency to the final detection metric
+    have been the bottleneck for rotating detection regression loss design. In
+    this paper, we propose a novel regression loss based on Gaussian
+    Wasserstein distance as a fundamental approach to solve the problem.
+    Specifically, the rotated bounding box is converted to a 2-D Gaussian
+    distribution, which enables to approximate the indifferentiable rotational
+    IoU induced loss by the Gaussian Wasserstein distance (GWD) which can be
+    learned efficiently by gradient back-propagation. GWD can still be
+    informative for learning even there is no overlapping between two rotating
+    bounding boxes which is often the case for small object detection. Thanks
+    to its three unique properties, GWD can also elegantly solve the boundary
+    discontinuity and square-like problem regardless how the bounding box is
+    defined. Experiments on five datasets using different detectors show the
+    effectiveness of our approach, and codes are available at
+    https://github.com/yangxue0827/RotationDetection.
+  }
+}
+@inproceedings{Yang2021KLD,
+  title        = {
+    Learning High-Precision Bounding Box for Rotated Object Detection via
+    Kullback-Leibler Divergence
+  },
+  author       = {
+    Yang, Xue and Yang, Xiaojiang and Yang, Jirui and Ming, Qi and Wang, Wentao
+    and Tian, Qi and Yan, Junchi
+  },
+  year         = 2021,
+  booktitle    = {Advances in Neural Information Processing Systems},
+  publisher    = {Curran Associates, Inc.},
+  volume       = 34,
+  pages        = {18381--18394},
+  url          = {
+    https://proceedings.neurips.cc/paper/2021/file/98f13708210194c475687be6106a3b84-Paper.pdf
+  },
+  editor       = {
+    M. Ranzato and A. Beygelzimer and Y. Dauphin and P.S. Liang and J. Wortman
+    Vaughan
+  }
+}
 @inproceedings{Zhu2021FCENet,
   title        = {Fourier Contour Embedding for Arbitrary-Shaped Text Detection},
   author       = {
@@ -55,7 +113,6 @@
   volume       = 33,
   pages        = {5621--5631},
   url          = {
-    
     https://proceedings.neurips.cc/paper/2020/file/3ce3bd7d63a2c9c81983cc8e9bd02ae5-Paper.pdf
   },
   editor       = {H. Larochelle and M. Ranzato and R. Hadsell and M.F. Balcan and H. Lin}
@@ -114,30 +171,4 @@
     test-dev detection benchmark, using ResNet-101 model. Code is available at
     https://github.com/microsoft/RepPoints.
   }
-}
-@InProceedings{Yang2021GWD,
-  title = 	 {Rethinking Rotated Object Detection with Gaussian Wasserstein Distance Loss},
-  author =       {Yang, Xue and Yan, Junchi and Ming, Qi and Wang, Wentao and Zhang, Xiaopeng and Tian, Qi},
-  booktitle = 	 {Proceedings of the 38th International Conference on Machine Learning},
-  pages = 	 {11830--11841},
-  year = 	 {2021},
-  editor = 	 {Meila, Marina and Zhang, Tong},
-  volume = 	 {139},
-  series = 	 {Proceedings of Machine Learning Research},
-  month = 	 {18--24 Jul},
-  publisher =    {PMLR},
-  pdf = 	 {http://proceedings.mlr.press/v139/yang21l/yang21l.pdf},
-  url = 	 {https://proceedings.mlr.press/v139/yang21l.html},
-  abstract = 	 {Boundary discontinuity and its inconsistency to the final detection metric have been the bottleneck for rotating detection regression loss design. In this paper, we propose a novel regression loss based on Gaussian Wasserstein distance as a fundamental approach to solve the problem. Specifically, the rotated bounding box is converted to a 2-D Gaussian distribution, which enables to approximate the indifferentiable rotational IoU induced loss by the Gaussian Wasserstein distance (GWD) which can be learned efficiently by gradient back-propagation. GWD can still be informative for learning even there is no overlapping between two rotating bounding boxes which is often the case for small object detection. Thanks to its three unique properties, GWD can also elegantly solve the boundary discontinuity and square-like problem regardless how the bounding box is defined. Experiments on five datasets using different detectors show the effectiveness of our approach, and codes are available at https://github.com/yangxue0827/RotationDetection.}
-}
-@inproceedings{Yang2021KLD,
- author = {Yang, Xue and Yang, Xiaojiang and Yang, Jirui and Ming, Qi and Wang, Wentao and Tian, Qi and Yan, Junchi},
- booktitle = {Advances in Neural Information Processing Systems},
- editor = {M. Ranzato and A. Beygelzimer and Y. Dauphin and P.S. Liang and J. Wortman Vaughan},
- pages = {18381--18394},
- publisher = {Curran Associates, Inc.},
- title = {Learning High-Precision Bounding Box for Rotated Object Detection via Kullback-Leibler Divergence},
- url = {https://proceedings.neurips.cc/paper/2021/file/98f13708210194c475687be6106a3b84-Paper.pdf},
- volume = {34},
- year = {2021}
 }
