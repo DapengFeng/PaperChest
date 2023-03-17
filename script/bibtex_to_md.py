@@ -7,6 +7,7 @@ from collections import OrderedDict
 repository_url = "https://github.com/DapengFeng/PaperChest"
 bibfile_dir = 'bibtex'
 bibfile_names = os.listdir(bibfile_dir)
+bibfile_names = [_ for _ in bibfile_names if 'bib.original' not in _]
 add_comments = False
 
 def plot_years_title(year):
