@@ -9,6 +9,7 @@
 - [Papers-in-2009](https://github.com/DapengFeng/PaperChest/blob/master/README.md#Papers-in-2009)
 
 ## Papers in 2022
+- **A Program to Build E(N)-Equivariant Steerable {CNN}s**, (2022) [[bib]](bibtex/equivariance.bib#L1-L7) 
 - **Scaling Language-Image Pre-training via Masking**, (2022) [[DOI]](https://doi.org/10.48550/ARXIV.2212.00794)  [[bib]](bibtex/pre-training.bib#L1-L16) 
 - **Masked Autoencoders As Spatiotemporal Learners**, (2022) [[DOI]](https://doi.org/10.48550/ARXIV.2205.09113)  [[bib]](bibtex/pre-training.bib#L17-L30) 
 - **SLIP: Self-supervision Meets Language-Image Pre-training**, (2022) [[bib]](bibtex/pre-training.bib#L31-L64) 
@@ -42,7 +43,8 @@
 - **TorchSparse: Efficient Point Cloud Inference Engine**, (2022) [[bib]](bibtex/system.bib#L77-L88) 
 
 ## Papers in 2021
-- **Vector Neurons: A General Framework for SO(3)-Equivariant Networks**, (2021) [[DOI]](https://doi.org/10.1109/ICCV48922.2021.01198)  [[bib]](bibtex/equivariance.bib#L1-L34) 
+- **Vector Neurons: A General Framework for SO(3)-Equivariant Networks**, (2021) [[DOI]](https://doi.org/10.1109/ICCV48922.2021.01198)  [[bib]](bibtex/equivariance.bib#L8-L41) 
+- **General Nonlinearities in SO(2)-Equivariant CNNs**, (2021) [[bib]](bibtex/equivariance.bib#L42-L57) 
 - **Emerging Properties in Self-Supervised Vision Transformers**, (2021) [[DOI]](https://doi.org/10.1109/ICCV48922.2021.00951)  [[bib]](bibtex/pre-training.bib#L65-L93) 
 - **Learning Transferable Visual Models From Natural Language Supervision**, (2021) [[bib]](bibtex/pre-training.bib#L94-L133) 
 - **Swin Transformer: Hierarchical Vision Transformer using Shifted Windows**, (2021) [[DOI]](https://doi.org/10.1109/ICCV48922.2021.00986)  [[bib]](bibtex/object-detection.bib#L10-L46) 
@@ -74,7 +76,7 @@
 - **Pixel-Level Extrinsic Self Calibration of High Resolution LiDAR and Camera in Targetless Environments**, (2021) [[DOI]](https://doi.org/10.1109/LRA.2021.3098923)  [[bib]](bibtex/hardware-synchronization.bib#L32-L63) 
 
 ## Papers in 2020
-- **SE(3)-Transformers: 3D Roto-Translation Equivariant Attention Networks**, (2020) [[bib]](bibtex/equivariance.bib#L35-L47) 
+- **SE(3)-Transformers: 3D Roto-Translation Equivariant Attention Networks**, (2020) [[bib]](bibtex/equivariance.bib#L58-L70) 
 - **Momentum Contrast for Unsupervised Visual Representation Learning**, (2020) [[DOI]](https://doi.org/10.1109/CVPR42600.2020.00975)  [[bib]](bibtex/pre-training.bib#L134-L160) 
 - **A Simple Framework for Contrastive Learning of Visual Representations**, (2020) [[bib]](bibtex/pre-training.bib#L161-L195) 
 - **RepPoints v2: Verification Meets Regression for Object Detection**, (2020) [[bib]](bibtex/object-detection.bib#L141-L156) 
@@ -101,12 +103,12 @@
 - **Space-Air-Ground Integrated Network: A Survey**, (2018) [[DOI]](https://doi.org/10.1109/COMST.2018.2841996)  [[bib]](bibtex/sagin.bib#L1-L34) 
 
 ## Papers in 2017
-- **Harmonic Networks: Deep Translation and Rotation Equivariance**, (2017) [[DOI]](https://doi.org/10.1109/CVPR.2017.758)  [[bib]](bibtex/equivariance.bib#L48-L78) 
+- **Harmonic Networks: Deep Translation and Rotation Equivariance**, (2017) [[DOI]](https://doi.org/10.1109/CVPR.2017.758)  [[bib]](bibtex/equivariance.bib#L71-L101) 
 - **{Metric Evaluation Pipeline for 3d Modeling of Urban Scenes}**, (2017) [[DOI]](https://doi.org/10.5194/isprs-archives-XLII-1-W1-239-2017)  [[bib]](bibtex/remote-sensing.bib#L1187-L1204) 
 - **Monocular Visual–Inertial State Estimation With Online Initialization and Camera–IMU Extrinsic Calibration**, (2017) [[DOI]](https://doi.org/10.1109/TASE.2016.2550621)  [[bib]](bibtex/hardware-synchronization.bib#L64-L99) 
 
 ## Papers in 2016
-- **Steerable CNNs**, (2016) [[DOI]](https://doi.org/10.48550/ARXIV.1612.08498)  [[bib]](bibtex/equivariance.bib#L79-L91) 
+- **Steerable CNNs**, (2016) [[DOI]](https://doi.org/10.48550/ARXIV.1612.08498)  [[bib]](bibtex/equivariance.bib#L102-L114) 
 - **Structure-from-Motion Revisited**, (2016) [[DOI]](https://doi.org/10.1109/CVPR.2016.445)  [[bib]](bibtex/3d-reconstruction.bib#L447-L466) 
 
 ## Papers in 2009
