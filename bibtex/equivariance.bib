@@ -1,3 +1,37 @@
+@inproceedings{Deng2021VectorNeurons,
+  title        = {Vector Neurons: A General Framework for SO(3)-Equivariant Networks},
+  author       = {
+    Deng, Congyue and Litany, Or and Duan, Yueqi and Poulenard, Adrien and
+    Tagliasacchi, Andrea and Guibas, Leonidas
+  },
+  year         = 2021,
+  month        = {Oct},
+  booktitle    = {2021 IEEE/CVF International Conference on Computer Vision (ICCV)},
+  pages        = {12180--12189},
+  doi          = {10.1109/ICCV48922.2021.01198},
+  issn         = {2380-7504},
+  abstract     = {
+    Invariance and equivariance to the rotation group have been widely
+    discussed in the 3D deep learning community for pointclouds. Yet most
+    proposed methods either use complex mathematical tools that may limit their
+    accessibility, or are tied to specific input data types and network
+    architectures. In this paper, we introduce a general framework built on top
+    of what we call Vector Neuron representations for creating SO (3)
+    -equivariant neural networks for pointcloud processing. Extending neurons
+    from 1D scalars to 3D vectors, our vector neurons enable a simple mapping
+    of SO (3) actions to latent spaces thereby providing a framework for
+    building equivariance in common neural operations – including linear
+    layers, non-linearities, pooling, and normalizations. Due to their
+    simplicity, vector neurons are versatile and, as we demonstrate, can be
+    incorporated into diverse network architecture backbones, allowing them to
+    process geometry inputs in arbitrary poses. Despite its simplicity, our
+    method performs comparably well in accuracy and generalization with other
+    more complex and specialized state-of-the-art methods on classification and
+    segmentation tasks. We also show for the first time a rotation equivariant
+    reconstruction network. Source code is available at
+    https://github.com/FlyingGiraffe/vnn.
+  },
+}
 @inproceedings{Fuchs2020SE3-Transformers,
   title        = {SE(3)-Transformers: 3D Roto-Translation Equivariant Attention Networks},
   author       = {Fuchs, Fabian and Worrall, Daniel and Fischer, Volker and Welling, Max},
@@ -42,28 +76,3 @@
     rotated-MNIST, and competitive results on other benchmark challenges.
   }
 }
-@INPROCEEDINGS{Deng2021VectorNeurons,
-
-  author={Deng, Congyue and Litany, Or and Duan, Yueqi and Poulenard, Adrien and Tagliasacchi, Andrea and Guibas, Leonidas},
-
-  booktitle={2021 IEEE/CVF International Conference on Computer Vision (ICCV)}, 
-
-  title={Vector Neurons: A General Framework for SO(3)-Equivariant Networks}, 
-
-  year={2021},
-
-  volume={},
-
-  number={},
-
-  pages={12180-12189},
-
-  abstract={Invariance and equivariance to the rotation group have been widely discussed in the 3D deep learning community for pointclouds. Yet most proposed methods either use complex mathematical tools that may limit their accessibility, or are tied to specific input data types and network architectures. In this paper, we introduce a general framework built on top of what we call Vector Neuron representations for creating SO (3) -equivariant neural networks for pointcloud processing. Extending neurons from 1D scalars to 3D vectors, our vector neurons enable a simple mapping of SO (3) actions to latent spaces thereby providing a framework for building equivariance in common neural operations – including linear layers, non-linearities, pooling, and normalizations. Due to their simplicity, vector neurons are versatile and, as we demonstrate, can be incorporated into diverse network architecture backbones, allowing them to process geometry inputs in arbitrary poses. Despite its simplicity, our method performs comparably well in accuracy and generalization with other more complex and specialized state-of-the-art methods on classification and segmentation tasks. We also show for the first time a rotation equivariant reconstruction network. Source code is available at https://github.com/FlyingGiraffe/vnn.},
-
-  keywords={},
-
-  doi={10.1109/ICCV48922.2021.01198},
-
-  ISSN={2380-7504},
-
-  month={Oct},}
