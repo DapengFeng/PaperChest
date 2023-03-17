@@ -106,6 +106,7 @@
 - **Monocular Visual–Inertial State Estimation With Online Initialization and Camera–IMU Extrinsic Calibration**, (2017) [[DOI]](https://doi.org/10.1109/TASE.2016.2550621)  [[bib]](bibtex/hardware-synchronization.bib#L64-L99) 
 
 ## Papers in 2016
+- **Steerable CNNs**, (2016) [[DOI]](https://doi.org/10.48550/ARXIV.1612.08498)  [[bib]](bibtex/equivariance.bib#L79-L91) 
 - **Structure-from-Motion Revisited**, (2016) [[DOI]](https://doi.org/10.1109/CVPR.2016.445)  [[bib]](bibtex/3d-reconstruction.bib#L447-L466) 
 
 ## Papers in 2009
