@@ -1,0 +1,89 @@
+@inproceedings{Sarlin2021PixLoc,
+  title        = {
+    Back to the Feature: Learning Robust Camera Localization from Pixels to
+    Pose
+  },
+  author       = {
+    Sarlin, Paul-Edouard and Unagar, Ajaykumar and Larsson, Måns and Germain,
+    Hugo and Toft, Carl and Larsson, Viktor and Pollefeys, Marc and Lepetit,
+    Vincent and Hammarstrand, Lars and Kahl, Fredrik and Sattler, Torsten
+  },
+  year         = 2021,
+  month        = {June},
+  booktitle    = {2021 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+  pages        = {3246--3256},
+  doi          = {10.1109/CVPR46437.2021.00326},
+  issn         = {2575-7075},
+  abstract     = {
+    Camera pose estimation in known scenes is a 3D geometry task recently
+    tackled by multiple learning algorithms. Many regress precise geometric
+    quantities, like poses or 3D points, from an input image. This either fails
+    to generalize to new viewpoints or ties the model parameters to a specific
+    scene. In this paper, we go Back to the Feature: we argue that deep
+    networks should focus on learning robust and invariant visual features,
+    while the geometric estimation should be left to principled algorithms. We
+    introduce PixLoc, a scene-agnostic neural network that estimates an
+    accurate 6-DoF pose from an image and a 3D model. Our approach is based on
+    the direct alignment of multiscale deep features, casting camera
+    localization as metric learning. PixLoc learns strong data priors by
+    end-to-end training from pixels to pose and exhibits exceptional
+    generalization to new scenes by separating model parameters and scene
+    geometry. The system can localize in large environments given coarse pose
+    priors but also improve the accuracy of sparse feature matching by jointly
+    refining keypoints and poses with little overhead. The code will be
+    publicly available at github.com/cvg/pixloc.
+  }
+}
+@inproceedings{Lin2021iNeRF,
+  title        = {iNeRF: Inverting Neural Radiance Fields for Pose Estimation},
+  author       = {
+    Yen-Chen, Lin and Florence, Pete and Barron, Jonathan T. and Rodriguez,
+    Alberto and Isola, Phillip and Lin, Tsung-Yi
+  },
+  year         = 2021,
+  month        = {Sep.},
+  booktitle    = {
+    2021 IEEE/RSJ International Conference on Intelligent Robots and Systems
+    (IROS)
+  },
+  pages        = {1323--1330},
+  doi          = {10.1109/IROS51168.2021.9636708},
+  issn         = {2153-0866},
+  abstract     = {
+    We present iNeRF, a framework that performs mesh-free pose estimation by
+    "inverting" a Neural Radiance Field (NeRF). NeRFs have been shown to be
+    remarkably effective for the task of view synthesis — synthesizing
+    photorealistic novel views of real-world scenes or objects. In this work,
+    we investigate whether we can apply analysis-by-synthesis via NeRF for
+    mesh-free, RGB-only 6DoF pose estimation – given an image, find the
+    translation and rotation of a camera relative to a 3D object or scene. Our
+    method assumes that no object mesh models are available during either
+    training or test time. Starting from an initial pose estimate, we use
+    gradient descent to minimize the residual between pixels rendered from a
+    NeRF and pixels in an observed image. In our experiments, we first study 1)
+    how to sample rays during pose refinement for iNeRF to collect informative
+    gradients and 2) how different batch sizes of rays affect iNeRF on a
+    synthetic dataset. We then show that for complex real-world scenes from the
+    LLFF dataset [21], iNeRF can improve NeRF by estimating the camera poses of
+    novel images and using these images as additional training data for NeRF.
+    Finally, we show iNeRF can perform categorylevel object pose estimation,
+    including object instances not seen during training, with RGB images by
+    inverting a NeRF model inferred from a single view.
+  }
+}
+@inproceedings{Teed2021DROID-SLAM,
+  title        = {DROID-SLAM: Deep Visual SLAM for Monocular, Stereo, and RGB-D Cameras},
+  author       = {Teed, Zachary and Deng, Jia},
+  year         = 2021,
+  booktitle    = {Advances in Neural Information Processing Systems},
+  publisher    = {Curran Associates, Inc.},
+  volume       = 34,
+  pages        = {16558--16569},
+  url          = {
+    https://proceedings.neurips.cc/paper/2021/file/89fcd07f20b6785b92134bd6c1d0fa42-Paper.pdf
+  },
+  editor       = {
+    M. Ranzato and A. Beygelzimer and Y. Dauphin and P.S. Liang and J. Wortman
+    Vaughan
+  }
+}

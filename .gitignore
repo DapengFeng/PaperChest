@@ -1,0 +1,12 @@
+# IDE
+.vscode
+
+# paper file
+*.pdf
+*.caj
+
+# python
+__pycache__
+
+# bibtex-tidy cache
+*.bib.original

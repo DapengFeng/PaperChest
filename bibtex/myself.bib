@@ -1,0 +1,75 @@
+@article{Feng2021PG-MonoNet,
+  title        = {Point-Guided Contrastive Learning for Monocular 3-D Object Detection},
+  author       = {
+    Feng, Dapeng and Han, Songfang and Xu, Hang and Liang, Xiaodan and Tan,
+    Xiaojun
+  },
+  year         = 2021,
+  journal      = {IEEE Transactions on Cybernetics},
+  pages        = {1--13},
+  doi          = {10.1109/TCYB.2021.3090370},
+  issn         = {2168-2275},
+  abstract     = {
+    3-D object detection is a fundamental task in the context of autonomous
+    driving. In the literature, cheap monocular image-based methods show a
+    significant performance drop compared to the expensive LiDAR and
+    stereo-images-based algorithms. In this article, we aim to close this
+    performance gap by bridging the representation capability between 2-D and
+    3-D domains. We propose a novel monocular 3-D object detection model using
+    self-supervised learning and auxiliary learning, resorting to mimicking the
+    representations over 3-D point clouds. Specifically, given a 2-D region
+    proposal and the corresponding instance point cloud, we supervise the
+    feature activation from our image-based convolution network to mimic the
+    latent feature of a point-based neural network at the training stage. While
+    state-of-the-art (SOTA) monocular 3-D detection algorithms typically
+    convert images to pseudo-LiDAR with depth estimation and regress 3-D
+    detection with LiDAR-based methods, our approach seeks the power of the 2-D
+    neural network straightforwardly and essentially enhances the 2-D module
+    capability with latent spatial-aware representations by contrastive
+    learning. We empirically validate the performance improvement from the
+    feature mimicking the KITTI and ApolloScape datasets and achieve the SOTA
+    performance on the KITTI and ApolloScape leaderboard.
+  }
+}
+@inproceedings{Liang2021GCC-3D,
+  title        = {
+    Exploring Geometry-aware Contrast and Clustering Harmonization for
+    Self-supervised 3D Object Detection
+  },
+  author       = {
+    Liang, Hanxue and Jiang, Chenhan and Feng, Dapeng and Chen, Xin and Xu,
+    Hang and Liang, Xiaodan and Zhang, Wei and Li, Zhenguo and Van Gool, Luc
+  },
+  year         = 2021,
+  month        = {Oct},
+  booktitle    = {2021 IEEE/CVF International Conference on Computer Vision (ICCV)},
+  pages        = {3273--3282},
+  doi          = {10.1109/ICCV48922.2021.00328},
+  issn         = {2380-7504},
+  abstract     = {
+    Current 3D object detection paradigms highly rely on extensive annotation
+    efforts, which makes them not practical in many real-world industrial
+    applications. Inspired by that a human driver can keep accumulating
+    experiences from self-exploring the roads without any tutor’s guidance, we
+    first step forwards to explore a simple yet effective self-supervised
+    learning framework tailored for LiDAR-based 3D object detection. Although
+    the self-supervised pipeline has achieved great success in 2D domain, the
+    characteristic challenges (e.g., complex geometry structure and various 3D
+    object views) encountered in the 3D domain hinder the direct adoption of
+    existing techniques that often contrast the 2D augmented data or cluster
+    single-view features. Here we present a novel self-supervised 3D Object
+    detection framework that seamlessly integrates the geometry-aware contrast
+    and clustering harmonization to lift the unsupervised 3D representation
+    learning, named GCC-3D. First, GCC-3D introduces a Geometric-Aware
+    Contrastive objective to learn spatial-sensitive local structure
+    representation. This objective enforces the spatially close voxels to have
+    high feature similarity. Second, a Pseudo-Instance Clustering harmonization
+    mechanism is proposed to encourage that different views of pseudo-instances
+    should have consistent similarities to clustering prototype centers. This
+    module endows our model semantic discriminative capacity. Extensive
+    experiments demonstrate our GCC-3D achieves significant performance
+    improvement on data-efficient 3D object detection benchmarks (nuScenes and
+    Waymo). Moreover, our GCC-3D framework can achieve state-of-the art
+    performances on all popular 3D object detection benchmarks.
+  }
+}

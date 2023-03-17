@@ -1,0 +1,493 @@
+@inproceedings{Chan2022EG3D,
+  title        = {Efficient Geometry-aware 3D Generative Adversarial Networks},
+  author       = {
+    Chan, Eric R. and Lin, Connor Z. and Chan, Matthew A. and Nagano, Koki and
+    Pan, Boxiao and de Mello, Shalini and Gallo, Orazio and Guibas, Leonidas
+    and Tremblay, Jonathan and Khamis, Sameh and Karras, Tero and Wetzstein,
+    Gordon
+  },
+  year         = 2022,
+  month        = {June},
+  booktitle    = {2022 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+  pages        = {16102--16112},
+  doi          = {10.1109/CVPR52688.2022.01565},
+  issn         = {2575-7075},
+  abstract     = {
+    Unsupervised generation of high-quality multi-view-consistent images and 3D
+    shapes using only collections of single-view 2D photographs has been a
+    long-standing challenge. Existing 3D GANs are either compute intensive or
+    make approximations that are not 3D-consistent; the former limits quality
+    and resolution of the generated images and the latter adversely affects
+    multi-view consistency and shape quality. In this work, we improve the
+    computational efficiency and image quality of 3D GANs without overly
+    relying on these approximations. We introduce an expressive hybrid explicit
+    implicit network architecture that, together with other design choices,
+    synthesizes not only high-resolution multi-view-consistent images in real
+    time but also produces high-quality 3D geometry. By decoupling feature
+    generation and neural rendering, our framework is able to leverage
+    state-of-the-art 2D CNN generators, such as StyleGAN2, and inherit their
+    efficiency and expressiveness. We demonstrate state-of-the-art 3D-aware
+    synthesis with FFHQ and AFHQ Cats, among other experiments.
+  }
+}
+@inproceedings{Levis2022BH-NeRF,
+  title        = {Gravitationally Lensed Black Hole Emission Tomography},
+  author       = {
+    Levis, Aviad and Srinivasan, Pratul P. and Chael, Andrew A. and Ng, Ren and
+    Bouman, Katherine L.
+  },
+  year         = 2022,
+  month        = {June},
+  booktitle    = {2022 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+  pages        = {19809--19818},
+  doi          = {10.1109/CVPR52688.2022.01922},
+  issn         = {2575-7075},
+  abstract     = {
+    Measurements from the Event Horizon Telescope enabled the visualization of
+    light emission around a black hole for the first time. So far, these
+    measurements have been used to recover a 2D image under the assumption that
+    the emission field is static over the period of acquisition. In this work,
+    we propose BH-NeRF, a novel tomography approach that leverages
+    gravitational lensing to recover the continuous 3D emission field near a
+    black hole. Compared to other 3D reconstruction or tomography settings,
+    this task poses two significant challenges: first, rays near black holes
+    follow curved paths dictated by general relativity, and second, we only
+    observe measurements from a single viewpoint. Our method captures the
+    unknown emission field using a continuous volumetric function parameterized
+    by a coordinate-based neural network, and uses knowledge of Keplerian
+    orbital dynamics to establish correspondence between 3D points over time.
+    Together, these enable BHNeRF to recover accurate 3D emission fields, even
+    in challenging situations with sparse measurements and uncertain orbital
+    dynamics. This work takes the first steps in showing how future
+    measurements from the Event Horizon Telescope could be used to recover
+    evolving 3D emission around the supermassive black hole in our Galactic
+    center.
+  }
+}
+@inproceedings{Müller2022AutoRF,
+  title        = {AutoRF: Learning 3D Object Radiance Fields from Single View Observations},
+  author       = {
+    Müller, Norman and Simonelli, Andrea and Porzi, Lorenzo and Bulò, Samuel
+    Rota and Nießner, Matthias and Kontschieder, Peter
+  },
+  year         = 2022,
+  month        = {June},
+  booktitle    = {2022 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+  pages        = {3961--3970},
+  doi          = {10.1109/CVPR52688.2022.00394},
+  issn         = {2575-7075},
+  abstract     = {
+    We introduce AutoRF - a new approach for learning neural 3D object
+    representations where each object in the training set is observed by only a
+    single view. This setting is in stark contrast to the majority of existing
+    works that leverage multiple views of the same object, employ explicit
+    priors during training, or require pixel-perfect annotations. To address
+    this challenging setting, we propose to learn a normalized, object-centric
+    representation whose embedding describes and disentangles shape,
+    appearance, and pose. Each encoding provides well-generalizable, compact
+    information about the object of interest, which is decoded in a single-shot
+    into a new target view, thus enabling novel view synthesis. We further
+    improve the reconstruction quality by optimizing shape and appearance codes
+    at test time by fitting the representation tightly to the input image. In a
+    series of experiments, we show that our method generalizes well to unseen
+    objects, even across different datasets of challenging real-world street
+    scenes such as nuScenes, KITTI, and Mapillary Metropolis. Additional
+    results can be found on our project page
+    https://sirwyver.github.io/AutoRF/.
+  }
+}
+@inproceedings{Niemeyer2022RegNeRF,
+  title        = {
+    RegNeRF: Regularizing Neural Radiance Fields for View Synthesis from Sparse
+    Inputs
+  },
+  author       = {
+    Niemeyer, Michael and Barron, Jonathan T. and Mildenhall, Ben and Sajjadi,
+    Mehdi S. M. and Geiger, Andreas and Radwan, Noha
+  },
+  year         = 2022,
+  month        = {June},
+  booktitle    = {2022 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+  pages        = {5470--5480},
+  doi          = {10.1109/CVPR52688.2022.00540},
+  issn         = {2575-7075},
+  abstract     = {
+    Neural Radiance Fields (NeRF) have emerged as a powerful representation for
+    the task of novel view synthesis due to their simplicity and
+    state-of-the-art performance. Though NeRF can produce photorealistic
+    renderings of unseen viewpoints when many input views are available, its
+    performance drops significantly when this number is reduced. We observe
+    that the majority of artifacts in sparse input scenarios are caused by
+    errors in the estimated scene geometry, and by divergent behavior at the
+    start of training. We address this by regularizing the geometry and
+    appearance of patches rendered from unobserved viewpoints, and annealing
+    the ray sampling space during training. We additionally use a normalizing
+    flow model to regularize the color of unobserved viewpoints. Our model
+    outperforms not only other methods that optimize over a single scene, but
+    in many cases also conditional models that are extensively pre-trained on
+    large multi-view datasets.
+  }
+}
+@article{Stucker2022ImpliCity,
+  title        = {
+    ImpliCity: City Modeling from Satellite Images with Deep Implicit Occupancy
+    Fields
+  },
+  author       = {
+    Stucker, C. and Ke, B. and Yue, Y. and Huang, S. and Armeni, I. and
+    Schindler, K.
+  },
+  year         = 2022,
+  journal      = {
+    ISPRS Annals of the Photogrammetry, Remote Sensing and Spatial Information
+    Sciences
+  },
+  volume       = {V-2-2022},
+  pages        = {193--201},
+  doi          = {10.5194/isprs-annals-V-2-2022-193-2022},
+  url          = {
+    https://www.isprs-ann-photogramm-remote-sens-spatial-inf-sci.net/V-2-2022/193/2022/
+  }
+}
+@inproceedings{Tancik2022Block-NeRF,
+  title        = {Block-NeRF: Scalable Large Scene Neural View Synthesis},
+  author       = {
+    Tancik, Matthew and Casser, Vincent and Yan, Xinchen and Pradhan, Sabeek
+    and Mildenhall, Ben P. and Srinivasan, Pratul and Barron, Jonathan T. and
+    Kretzschmar, Henrik
+  },
+  year         = 2022,
+  month        = {June},
+  booktitle    = {2022 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+  pages        = {8238--8248},
+  doi          = {10.1109/CVPR52688.2022.00807},
+  issn         = {2575-7075},
+  abstract     = {
+    We present Block-NeRF, a variant of Neural Radiance Fields that can
+    represent large-scale environments. Specifically, we demonstrate that when
+    scaling NeRF to render city-scale scenes spanning multiple blocks, it is
+    vital to de-compose the scene into individually trained NeRFs. This
+    decomposition decouples rendering time from scene size, enables rendering
+    to scale to arbitrarily large environments, and allows per-block updates of
+    the environment. We adopt several architectural changes to make NeRF robust
+    to data captured over months under different environmental conditions. We
+    add appearance embeddings, learned pose refinement, and controllable
+    exposure to each individual NeRF, and introduce a procedure for aligning
+    appearance between adjacent NeRFs so that they can be seamlessly combined.
+    We build a grid of Block-NeRFs from 2.8 million images to create the
+    largest neural scene representation to date, capable of rendering an entire
+    neighborhood of San Francisco.
+  }
+}
+@inproceedings{Wang2022FPO-NeRF,
+  title        = {Fourier PlenOctrees for Dynamic Radiance Field Rendering in Real-time},
+  author       = {
+    Wang, Liao and Zhang, Jiakai and Liu, Xinhang and Zhao, Fuqiang and Zhang,
+    Yanshun and Zhang, Yingliang and Wu, Minve and Yu, Jingyi and Xu, Lan
+  },
+  year         = 2022,
+  month        = {June},
+  booktitle    = {2022 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+  pages        = {13514--13524},
+  doi          = {10.1109/CVPR52688.2022.01316},
+  issn         = {2575-7075},
+  abstract     = {
+    Implicit neural representations such as Neural Radiance Field (NeRF) have
+    focused mainly on modeling static objects captured under multi-view
+    settings where real-time rendering can be achieved with smart data
+    structures, e.g., PlenOctree. In this paper, we present a novel Fourier
+    PlenOctree (FPO) technique to tackle efficient neural mod-eling and
+    real-time rendering of dynamic scenes captured under the free-view video
+    (FVV) setting. The key idea in our FPO is a novel combination of
+    generalized NeRF, PlenOctree representation, volumetric fusion and Fourier
+    transform. To accelerate FPO construction, we present a novel
+    coarse-to-fine fusion scheme that leverages the gen-eralizable NeRF
+    technique to generate the tree via spatial blending. To tackle dynamic
+    scenes, we tailor the implicit network to model the Fourier coefficients of
+    time-varying density and color attributes. Finally, we construct the FPO
+    and train the Fourier coefficients directly on the leaves of a union
+    PlenOctree structure of the dynamic sequence. We show that the resulting
+    FPO enables compact memory overload to handle dynamic objects and supports
+    efficient fine-tuning. Extensive experiments show that the proposed method
+    is 3000 times faster than the original NeRF and achieves over an order of
+    magnitude acceleration over SOTA while preserving high visual quality for
+    the free-viewpoint rendering of unseen dynamic scenes.
+  }
+}
+@inproceedings{Xiangli2022BungeeNeRF,
+  title        = {
+    BungeeNeRF: Progressive Neural Radiance Field for Extreme Multi-scale Scene
+    Rendering
+  },
+  author       = {
+    Xiangli, Yuanbo and Xu, Linning and Pan, Xingang and Zhao, Nanxuan and Rao,
+    Anyi and Theobalt, Christian and Dai, Bo and Lin, Dahua
+  },
+  year         = 2022,
+  booktitle    = {Computer Vision -- ECCV 2022},
+  publisher    = {Springer Nature Switzerland},
+  address      = {Cham},
+  pages        = {106--122},
+  isbn         = {978-3-031-19824-3},
+  editor       = {
+    Avidan, Shai and Brostow, Gabriel and Ciss{\'e}, Moustapha and Farinella,
+    Giovanni Maria and Hassner, Tal
+  },
+  abstract     = {
+    Neural radiance fields (NeRF) has achieved outstanding performance in
+    modeling 3D objects and controlled scenes, usually under a single scale. In
+    this work, we focus on multi-scale cases where large changes in imagery are
+    observed at drastically different scales. This scenario vastly exists in
+    real-world 3D environments, such as city scenes, with views ranging from
+    satellite level that captures the overview of a city, to ground level
+    imagery showing complex details of an architecture; and can also be
+    commonly identified in landscape and delicate minecraft 3D models. The wide
+    span of viewing positions within these scenes yields multi-scale renderings
+    with very different levels of detail, which poses great challenges to
+    neural radiance field and biases it towards compromised results. To address
+    these issues, we introduce BungeeNeRF, a progressive neural radiance field
+    that achieves level-of-detail rendering across drastically varied scales.
+    Starting from fitting distant views with a shallow base block, as training
+    progresses, new blocks are appended to accommodate the emerging details in
+    the increasingly closer views. The strategy progressively activates
+    high-frequency channels in NeRF's positional encoding inputs and
+    successively unfolds more complex details as the training proceeds. We
+    demonstrate the superiority of BungeeNeRF in modeling diverse multi-scale
+    scenes with drastically varying views on multiple data sources (city
+    models, synthetic, and drone captured data) and its support for
+    high-quality rendering in different levels of detail.
+  }
+}
+@inproceedings{Turki2022Mega-NeRF,
+  title        = {
+    Mega-NeRF: Scalable Construction of Large-Scale NeRFs for Virtual Fly-
+    Throughs
+  },
+  author       = {Turki, Haithem and Ramanan, Deva and Satyanarayanan, Mahadev},
+  year         = 2022,
+  month        = {June},
+  booktitle    = {2022 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+  pages        = {12912--12921},
+  doi          = {10.1109/CVPR52688.2022.01258},
+  issn         = {2575-7075},
+  abstract     = {
+    We use neural radiance fields (NeRFs) to build interac-tive 3D environments
+    from large-scale visual captures spanning buildings or even multiple city
+    blocks collected pri-marily from drones. In contrast to single object
+    scenes (on which NeRFs are traditionally evaluated), our scale poses
+    multiple challenges including (1) the need to model thou-sands of images
+    with varying lighting conditions, each of which capture only a small subset
+    of the scene, (2) pro-hibitively large model capacities that make it
+    infeasible to train on a single GPU, and (3) significant challenges for
+    fast rendering that would enable interactive fly-throughs. To address these
+    challenges, we begin by analyzing visi-bility statistics for large-scale
+    scenes, motivating a sparse network structure where parameters are
+    specialized to dif-ferent regions of the scene. We introduce a simple
+    geomet-ric clustering algorithm for data parallelism that partitions
+    training images (or rather pixels) into different NeRF sub-modules that can
+    be trained in parallel. We evaluate our approach on existing datasets (Quad
+    6k and UrbanScene3D) as well as against our own drone footage, improving
+    training speed by 3x and PSNR by 12%. We also evaluate re-cent NeRF fast
+    renderers on top of Mega-NeRF and intro-duce a novel method that exploits
+    temporal coherence. Our technique achieves a 40x speedup over conventional
+    NeRF rendering while remaining within 0.8 db in PSNR quality, exceeding the
+    fidelity of existing fast renderers.
+  }
+}
+@inproceedings{Lindenberger2021PixelPerfectSfM,
+  title        = {Pixel-Perfect Structure-from-Motion with Featuremetric Refinement},
+  author       = {
+    Lindenberger, Philipp and Sarlin, Paul-Edouard and Larsson, Viktor and
+    Pollefeys, Marc
+  },
+  year         = 2021,
+  month        = {Oct},
+  booktitle    = {2021 IEEE/CVF International Conference on Computer Vision (ICCV)},
+  pages        = {5967--5977},
+  doi          = {10.1109/ICCV48922.2021.00593},
+  issn         = {2380-7504},
+  abstract     = {
+    Finding local features that are repeatable across multiple views is a
+    cornerstone of sparse 3D reconstruction. The classical image matching
+    paradigm detects keypoints per-image once and for all, which can yield
+    poorly-localized features and propagate large errors to the final geometry.
+    In this paper, we refine two key steps of structure-from-motion by a direct
+    alignment of low-level image information from multiple views: we first
+    adjust the initial keypoint locations prior to any geometric estimation,
+    and subsequently refine points and camera poses as a post-processing. This
+    refinement is robust to large detection noise and appearance changes, as it
+    optimizes a featuremetric error based on dense features predicted by a
+    neural network. This significantly improves the accuracy of camera poses
+    and scene geometry for a wide range of keypoint detectors, challenging
+    viewing conditions, and off-the-shelf deep features. Our system easily
+    scales to large image collections, enabling pixel-perfect crowd-sourced
+    localization at scale. Our code is publicly available at
+    github.com/cvg/pixel-perfect-sfm as an add-on to the popular SfM software
+    COLMAP.
+  }
+}
+@inproceedings{Martin-Brualla2021NeRF-W,
+  title        = {
+    NeRF in the Wild: Neural Radiance Fields for Unconstrained Photo
+    Collections
+  },
+  author       = {
+    Martin-Brualla, Ricardo and Radwan, Noha and Sajjadi, Mehdi S. M. and
+    Barron, Jonathan T. and Dosovitskiy, Alexey and Duckworth, Daniel
+  },
+  year         = 2021,
+  month        = {June},
+  booktitle    = {2021 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+  pages        = {7206--7215},
+  doi          = {10.1109/CVPR46437.2021.00713},
+  issn         = {2575-7075},
+  abstract     = {
+    We present a learning-based method for synthesizing novel views of complex
+    scenes using only unstructured collections of in-the-wild photographs. We
+    build on Neural Radiance Fields (NeRF), which uses the weights of a
+    multi-layer perceptron to model the density and color of a scene as a
+    function of 3D coordinates. While NeRF works well on images of static
+    subjects captured under controlled settings, it is incapable of modeling
+    many ubiquitous, real-world phenomena in uncontrolled images, such as
+    variable illumination or transient occluders. We introduce a series of
+    extensions to NeRF to address these issues, thereby enabling accurate
+    reconstructions from unstructured image collections taken from the
+    internet. We apply our system, dubbed NeRF-W, to internet photo collections
+    of famous landmarks, and demonstrate temporally consistent novel view
+    renderings that are significantly closer to photorealism than the prior
+    state of the art.
+  }
+}
+@inproceedings{Niemeyer2021GIRAFFE,
+  title        = {
+    GIRAFFE: Representing Scenes as Compositional Generative Neural Feature
+    Fields
+  },
+  author       = {Niemeyer, Michael and Geiger, Andreas},
+  year         = 2021,
+  month        = {June},
+  booktitle    = {2021 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+  pages        = {11448--11459},
+  doi          = {10.1109/CVPR46437.2021.01129},
+  issn         = {2575-7075},
+  abstract     = {
+    Deep generative models allow for photorealistic image synthesis at high
+    resolutions. But for many applications, this is not enough: content
+    creation also needs to be controllable. While several recent works
+    investigate how to disentangle underlying factors of variation in the data,
+    most of them operate in 2D and hence ignore that our world is
+    three-dimensional. Further, only few works consider the compositional
+    nature of scenes. Our key hypothesis is that incorporating a compositional
+    3D scene representation into the generative model leads to more
+    controllable image synthesis. Representing scenes as compositional
+    generative neural feature fields allows us to disentangle one or multiple
+    objects from the background as well as individual objects’ shapes and
+    appearances while learning from unstructured and unposed image collections
+    without any additional supervision. Combining this scene representation
+    with a neural rendering pipeline yields a fast and realistic image
+    synthesis model. As evidenced by our experiments, our model is able to
+    disentangle individual objects and allows for translating and rotating them
+    in the scene as well as changing the camera pose.
+  }
+}
+@inproceedings{Mildenhall2020NeRF,
+  title        = {NeRF: Representing Scenes as Neural Radiance Fields for View Synthesis},
+  author       = {
+    Mildenhall, Ben and Srinivasan, Pratul P. and Tancik, Matthew and Barron,
+    Jonathan T. and Ramamoorthi, Ravi and Ng, Ren
+  },
+  year         = 2020,
+  booktitle    = {Computer Vision -- ECCV 2020},
+  publisher    = {Springer International Publishing},
+  address      = {Cham},
+  pages        = {405--421},
+  isbn         = {978-3-030-58452-8},
+  editor       = {Vedaldi, Andrea and Bischof, Horst and Brox, Thomas and Frahm, Jan-Michael},
+  abstract     = {
+    We present a method that achieves state-of-the-art results for synthesizing
+    novel views of complex scenes by optimizing an underlying continuous
+    volumetric scene function using a sparse set of input views. Our algorithm
+    represents a scene using a fully-connected (non-convolutional) deep
+    network, whose input is a single continuous 5D coordinate (spatial location
+    (x, y, z) and viewing direction {\$}{\$}({\backslash}theta ,{\backslash}phi
+    ){\$}{\$}) and whose output is the volume density and view-dependent
+    emitted radiance at that spatial location. We synthesize views by querying
+    5D coordinates along camera rays and use classic volume rendering
+    techniques to project the output colors and densities into an image.
+    Because volume rendering is naturally differentiable, the only input
+    required to optimize our representation is a set of images with known
+    camera poses. We describe how to effectively optimize neural radiance
+    fields to render photorealistic novel views of scenes with complicated
+    geometry and appearance, and demonstrate results that outperform prior work
+    on neural rendering and view synthesis. View synthesis results are best
+    viewed as videos, so we urge readers to view our supplementary video for
+    convincing comparisons.
+  }
+}
+@inproceedings{Tancik2020FFNTK,
+  title        = {
+    Fourier Features Let Networks Learn High Frequency Functions in Low
+    Dimensional Domains
+  },
+  author       = {
+    Tancik, Matthew and Srinivasan, Pratul and Mildenhall, Ben and
+    Fridovich-Keil, Sara and Raghavan, Nithin and Singhal, Utkarsh and
+    Ramamoorthi, Ravi and Barron, Jonathan and Ng, Ren
+  },
+  year         = 2020,
+  booktitle    = {Advances in Neural Information Processing Systems},
+  publisher    = {Curran Associates, Inc.},
+  volume       = 33,
+  pages        = {7537--7547},
+  url          = {
+    https://proceedings.neurips.cc/paper/2020/file/55053683268957697aa39fba6f231c68-Paper.pdf
+  },
+  editor       = {H. Larochelle and M. Ranzato and R. Hadsell and M.F. Balcan and H. Lin}
+}
+@inproceedings{Schonberger2016SfMR,
+  title        = {Structure-from-Motion Revisited},
+  author       = {Schönberger, Johannes L. and Frahm, Jan-Michael},
+  year         = 2016,
+  month        = {June},
+  booktitle    = {2016 IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},
+  pages        = {4104--4113},
+  doi          = {10.1109/CVPR.2016.445},
+  issn         = {1063-6919},
+  abstract     = {
+    Incremental Structure-from-Motion is a prevalent strategy for 3D
+    reconstruction from unordered image collections. While incremental
+    reconstruction systems have tremendously advanced in all regards,
+    robustness, accuracy, completeness, and scalability remain the key problems
+    towards building a truly general-purpose pipeline. We propose a new SfM
+    technique that improves upon the state of the art to make a further step
+    towards this ultimate goal. The full reconstruction pipeline is released to
+    the public as an open-source implementation.
+  }
+}
+@inproceedings{Agarwal2009BuildingRome,
+  title        = {Building Rome in a day},
+  author       = {
+    Agarwal, Sameer and Snavely, Noah and Simon, Ian and Seitz, Steven M. and
+    Szeliski, Richard
+  },
+  year         = 2009,
+  month        = {Sep.},
+  booktitle    = {2009 IEEE 12th International Conference on Computer Vision},
+  pages        = {72--79},
+  doi          = {10.1109/ICCV.2009.5459148},
+  issn         = {2380-7504},
+  abstract     = {
+    We present a system that can match and reconstruct 3D scenes from extremely
+    large collections of photographs such as those found by searching for a
+    given city (e.g., Rome) on Internet photo sharing sites. Our system uses a
+    collection of novel parallel distributed matching and reconstruction
+    algorithms, designed to maximize parallelism at each stage in the pipeline
+    and minimize serialization bottlenecks. It is designed to scale gracefully
+    with both the size of the problem and the amount of available computation.
+    We have experimented with a variety of alternative algorithms at each stage
+    of the pipeline and report on which ones work best in a parallel computing
+    environment. Our experimental results demonstrate that it is now possible
+    to reconstruct cities consisting of 150 K images in less than a day on a
+    cluster with 500 compute cores.
+  }
+}

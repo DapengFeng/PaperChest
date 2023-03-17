@@ -1,0 +1,211 @@
+@article{Yang2022KFIoU,
+  title        = {The KFIoU Loss for Rotated Object Detection},
+  author       = {
+    Xue Yang and Yue Zhou and Gefan Zhang and Jirui Yang and Wentao Wang and
+    Junchi Yan and Xiaopeng Zhang and Qi Tian
+  },
+  year         = 2022,
+  journal      = {arXiv preprint arXiv: Arxiv-2201.12558}
+}
+@inproceedings{Liu2021SwinTransformer,
+  title        = {Swin Transformer: Hierarchical Vision Transformer using Shifted Windows},
+  author       = {
+    Liu, Ze and Lin, Yutong and Cao, Yue and Hu, Han and Wei, Yixuan and Zhang,
+    Zheng and Lin, Stephen and Guo, Baining
+  },
+  year         = 2021,
+  month        = {Oct},
+  booktitle    = {2021 IEEE/CVF International Conference on Computer Vision (ICCV)},
+  pages        = {9992--10002},
+  doi          = {10.1109/ICCV48922.2021.00986},
+  issn         = {2380-7504},
+  abstract     = {
+    This paper presents a new vision Transformer, called Swin Transformer, that
+    capably serves as a general-purpose backbone for computer vision.
+    Challenges in adapting Transformer from language to vision arise from
+    differences between the two domains, such as large variations in the scale
+    of visual entities and the high resolution of pixels in images compared to
+    words in text. To address these differences, we propose a hierarchical
+    Transformer whose representation is computed with Shifted windows. The
+    shifted windowing scheme brings greater efficiency by limiting
+    self-attention computation to non-overlapping local windows while also
+    allowing for cross-window connection. This hierarchical architecture has
+    the flexibility to model at various scales and has linear computational
+    complexity with respect to image size. These qualities of Swin Transformer
+    make it compatible with a broad range of vision tasks, including image
+    classification (87.3 top-1 accuracy on ImageNet-1K) and dense prediction
+    tasks such as object detection (58.7 box AP and 51.1 mask AP on COCO
+    test-dev) and semantic segmentation (53.5 mIoU on ADE20K val). Its
+    performance surpasses the previous state-of-the-art by a large margin of
+    +2.7 box AP and +2.6 mask AP on COCO, and +3.2 mIoU on ADE20K,
+    demonstrating the potential of Transformer-based models as vision
+    backbones. The hierarchical design and the shifted window approach also
+    prove beneficial for all-MLP architectures. The code and models are
+    publicly available at https://github.com/microsoft/Swin-Transformer.
+  },
+}
+@inproceedings{Yang2021GWD,
+  title        = {
+    Rethinking Rotated Object Detection with Gaussian Wasserstein Distance Loss
+  },
+  author       = {
+    Yang, Xue and Yan, Junchi and Ming, Qi and Wang, Wentao and Zhang, Xiaopeng
+    and Tian, Qi
+  },
+  year         = 2021,
+  month        = {18--24 Jul},
+  booktitle    = {Proceedings of the 38th International Conference on Machine Learning},
+  publisher    = {PMLR},
+  series       = {Proceedings of Machine Learning Research},
+  volume       = 139,
+  pages        = {11830--11841},
+  url          = {https://proceedings.mlr.press/v139/yang21l.html},
+  editor       = {Meila, Marina and Zhang, Tong},
+  pdf          = {http://proceedings.mlr.press/v139/yang21l/yang21l.pdf},
+  abstract     = {
+    Boundary discontinuity and its inconsistency to the final detection metric
+    have been the bottleneck for rotating detection regression loss design. In
+    this paper, we propose a novel regression loss based on Gaussian
+    Wasserstein distance as a fundamental approach to solve the problem.
+    Specifically, the rotated bounding box is converted to a 2-D Gaussian
+    distribution, which enables to approximate the indifferentiable rotational
+    IoU induced loss by the Gaussian Wasserstein distance (GWD) which can be
+    learned efficiently by gradient back-propagation. GWD can still be
+    informative for learning even there is no overlapping between two rotating
+    bounding boxes which is often the case for small object detection. Thanks
+    to its three unique properties, GWD can also elegantly solve the boundary
+    discontinuity and square-like problem regardless how the bounding box is
+    defined. Experiments on five datasets using different detectors show the
+    effectiveness of our approach, and codes are available at
+    https://github.com/yangxue0827/RotationDetection.
+  }
+}
+@inproceedings{Yang2021KLD,
+  title        = {
+    Learning High-Precision Bounding Box for Rotated Object Detection via
+    Kullback-Leibler Divergence
+  },
+  author       = {
+    Yang, Xue and Yang, Xiaojiang and Yang, Jirui and Ming, Qi and Wang, Wentao
+    and Tian, Qi and Yan, Junchi
+  },
+  year         = 2021,
+  booktitle    = {Advances in Neural Information Processing Systems},
+  publisher    = {Curran Associates, Inc.},
+  volume       = 34,
+  pages        = {18381--18394},
+  url          = {
+    https://proceedings.neurips.cc/paper/2021/file/98f13708210194c475687be6106a3b84-Paper.pdf
+  },
+  editor       = {
+    M. Ranzato and A. Beygelzimer and Y. Dauphin and P.S. Liang and J. Wortman
+    Vaughan
+  }
+}
+@inproceedings{Zhu2021FCENet,
+  title        = {Fourier Contour Embedding for Arbitrary-Shaped Text Detection},
+  author       = {
+    Zhu, Yiqin and Chen, Jianyong and Liang, Lingyu and Kuang, Zhanghui and
+    Jin, Lianwen and Zhang, Wayne
+  },
+  year         = 2021,
+  month        = {June},
+  booktitle    = {2021 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+  pages        = {3122--3130},
+  doi          = {10.1109/CVPR46437.2021.00314},
+  issn         = {2575-7075},
+  abstract     = {
+    One of the main challenges for arbitrary-shaped text detection is to design
+    a good text instance representation that allows networks to learn diverse
+    text geometry variances. Most of existing methods model text instances in
+    image spatial domain via masks or contour point sequences in the Cartesian
+    or the polar coordinate system. However, the mask representation might lead
+    to expensive post-processing, while the point sequence one may have limited
+    capability to model texts with highly-curved shapes. To tackle these
+    problems, we model text instances in the Fourier domain and propose one
+    novel Fourier Contour Embedding (FCE) method to represent arbitrary shaped
+    text contours as compact signatures. We further construct FCENet with a
+    backbone, feature pyramid networks (FP-N) and a simple post-processing with
+    the Inverse Fourier Transformation (IFT) and Non-Maximum Suppression
+    (N-MS). Different from previous methods, FCENet first pre-dicts compact
+    Fourier signatures of text instances, and then reconstructs text contours
+    via IFT and NMS during test. Extensive experiments demonstrate that FCE is
+    accurate and robust to fit contours of scene texts even with highly-curved
+    shapes, and also validate the effectiveness and the good generalization of
+    FCENet for arbitrary-shaped text detection. Furthermore, experimental
+    results show that our FCENet is superior to the state-of-the-art (SOTA)
+    meth-ods on CTW1500 and Total-Text, especially on challenging highly-curved
+    text subset.
+  }
+}
+@inproceedings{Chen2020RepPointsV2,
+  title        = {RepPoints v2: Verification Meets Regression for Object Detection},
+  author       = {
+    Chen, Yihong and Zhang, Zheng and Cao, Yue and Wang, Liwei and Lin, Stephen
+    and Hu, Han
+  },
+  year         = 2020,
+  booktitle    = {Advances in Neural Information Processing Systems},
+  publisher    = {Curran Associates, Inc.},
+  volume       = 33,
+  pages        = {5621--5631},
+  url          = {
+    https://proceedings.neurips.cc/paper/2020/file/3ce3bd7d63a2c9c81983cc8e9bd02ae5-Paper.pdf
+  },
+  editor       = {H. Larochelle and M. Ranzato and R. Hadsell and M.F. Balcan and H. Lin}
+}
+@inproceedings{Yang2020DenseRepPoints,
+  title        = {Dense RepPoints: Representing Visual Objects with Dense Point Sets},
+  author       = {
+    Yang, Ze and Xu, Yinghao and Xue, Han and Zhang, Zheng and Urtasun, Raquel
+    and Wang, Liwei and Lin, Stephen and Hu, Han
+  },
+  year         = 2020,
+  booktitle    = {Computer Vision -- ECCV 2020},
+  publisher    = {Springer International Publishing},
+  address      = {Cham},
+  pages        = {227--244},
+  isbn         = {978-3-030-58589-1},
+  editor       = {Vedaldi, Andrea and Bischof, Horst and Brox, Thomas and Frahm, Jan-Michael},
+  abstract     = {
+    We present a new object representation, called Dense RepPoints, that
+    utilizes a large set of points to describe an object at multiple levels,
+    including both box level and pixel level. Techniques are proposed to
+    efficiently process these dense points, maintaining near-constant
+    complexity with increasing point numbers. Dense RepPoints is shown to
+    represent and learn object segments well, with the use of a novel distance
+    transform sampling method combined with set-to-set supervision. The
+    distance transform sampling combines the strengths of contour and grid
+    representations, leading to performance that surpasses counterparts based
+    on contours or grids. Code is available at
+    https://github.com/justimyhxu/Dense-RepPoints.
+  }
+}
+@inproceedings{Yang2019RepPoints,
+  title        = {RepPoints: Point Set Representation for Object Detection},
+  author       = {Yang, Ze and Liu, Shaohui and Hu, Han and Wang, Liwei and Lin, Stephen},
+  year         = 2019,
+  month        = {Oct},
+  booktitle    = {2019 IEEE/CVF International Conference on Computer Vision (ICCV)},
+  pages        = {9656--9665},
+  doi          = {10.1109/ICCV.2019.00975},
+  issn         = {2380-7504},
+  abstract     = {
+    Modern object detectors rely heavily on rectangular bounding boxes, such as
+    anchors, proposals and the final predictions, to represent objects at
+    various recognition stages. The bounding box is convenient to use but
+    provides only a coarse localization of objects and leads to a
+    correspondingly coarse extraction of object features. In this paper, we
+    present RepPoints (representative points), a new finer representation of
+    objects as a set of sample points useful for both localization and
+    recognition. Given ground truth localization and recognition targets for
+    training, RepPoints learn to automatically arrange themselves in a manner
+    that bounds the spatial extent of an object and indicates semantically
+    significant local areas. They furthermore do not require the use of anchors
+    to sample a space of bounding boxes. We show that an anchor-free object
+    detector based on RepPoints can be as effective as the state-of-the-art
+    anchor-based detection methods, with 46.5 AP and 67.4 AP50 on the COCO
+    test-dev detection benchmark, using ResNet-101 model. Code is available at
+    https://github.com/microsoft/RepPoints.
+  }
+}

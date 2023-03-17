@@ -1,0 +1,226 @@
+@misc{Li2022FLIP,
+  title        = {Scaling Language-Image Pre-training via Masking},
+  author       = {
+    Li, Yanghao and Fan, Haoqi and Hu, Ronghang and Feichtenhofer, Christoph
+    and He, Kaiming
+  },
+  year         = 2022,
+  publisher    = {arXiv},
+  doi          = {10.48550/ARXIV.2212.00794},
+  url          = {https://arxiv.org/abs/2212.00794},
+  copyright    = {arXiv.org perpetual, non-exclusive license},
+  keywords     = {
+    Computer Vision and Pattern Recognition (cs.CV), FOS: Computer and
+    information sciences, FOS: Computer and information sciences
+  }
+}
+@misc{Feichtenhofer2022SpatiotemporalMAE,
+  title        = {Masked Autoencoders As Spatiotemporal Learners},
+  author       = {Feichtenhofer, Christoph and Fan, Haoqi and Li, Yanghao and He, Kaiming},
+  year         = 2022,
+  publisher    = {arXiv},
+  doi          = {10.48550/ARXIV.2205.09113},
+  url          = {https://arxiv.org/abs/2205.09113},
+  copyright    = {arXiv.org perpetual, non-exclusive license},
+  keywords     = {
+    Computer Vision and Pattern Recognition (cs.CV), Machine Learning (cs.LG),
+    FOS: Computer and information sciences, FOS: Computer and information
+    sciences
+  }
+}
+@inproceedings{Mu2022SLIP,
+  title        = {SLIP: Self-supervision Meets Language-Image Pre-training},
+  author       = {Mu, Norman and Kirillov, Alexander and Wagner, David and Xie, Saining},
+  year         = 2022,
+  booktitle    = {Computer Vision -- ECCV 2022},
+  publisher    = {Springer Nature Switzerland},
+  address      = {Cham},
+  pages        = {529--544},
+  isbn         = {978-3-031-19809-0},
+  editor       = {
+    Avidan, Shai and Brostow, Gabriel and Ciss{\'e}, Moustapha and Farinella,
+    Giovanni Maria and Hassner, Tal
+  },
+  abstract     = {
+    Recent work has shown that self-supervised pre-training leads to
+    improvements over supervised learning on challenging visual recognition
+    tasks. CLIP, an exciting new approach to learning with language
+    supervision, demonstrates promising performance on a wide variety of
+    benchmarks. In this work, we explore whether self-supervised learning can
+    aid in the use of language supervision for visual representation learning
+    with Vision Transformers. We introduce SLIP, a multi-task learning
+    framework for combining self-supervised learning and CLIP pre-training.
+    After pre-training, we thoroughly evaluate representation quality and
+    compare performance to both CLIP and self-supervised learning under three
+    distinct settings: zero-shot transfer, linear classification, and
+    end-to-end finetuning. Across ImageNet and a battery of additional
+    datasets, we find that SLIP improves accuracy by a large margin. We
+    validate our results further with experiments on different model sizes,
+    training schedules, and pre-training datasets. Our findings show that SLIP
+    enjoys the best of both worlds: better performance than self-supervision
+    (+8.1{\%} linear accuracy) and language supervision (+5.2{\%} zero-shot
+    accuracy). Our code is available at: github.com/facebookresearch/SLIP.
+  }
+}
+@inproceedings{Caron2021DINO,
+  title        = {Emerging Properties in Self-Supervised Vision Transformers},
+  author       = {
+    Caron, Mathilde and Touvron, Hugo and Misra, Ishan and Jegou, Hervé and
+    Mairal, Julien and Bojanowski, Piotr and Joulin, Armand
+  },
+  year         = 2021,
+  month        = {Oct},
+  booktitle    = {2021 IEEE/CVF International Conference on Computer Vision (ICCV)},
+  pages        = {9630--9640},
+  doi          = {10.1109/ICCV48922.2021.00951},
+  issn         = {2380-7504},
+  abstract     = {
+    In this paper, we question if self-supervised learning provides new
+    properties to Vision Transformer (ViT) [16] that stand out compared to
+    convolutional networks (convnets). Beyond the fact that adapting
+    self-supervised methods to this architecture works particularly well, we
+    make the following observations: first, self-supervised ViT features
+    contain explicit information about the semantic segmentation of an image,
+    which does not emerge as clearly with supervised ViTs, nor with convnets.
+    Second, these features are also excellent k-NN classifiers, reaching 78.3%
+    top-1 on ImageNet with a small ViT. Our study also underlines the
+    importance of momentum encoder [26], multi-crop training [9], and the use
+    of small patches with ViTs. We implement our findings into a simple
+    self-supervised method, called DINO, which we interpret as a form of
+    self-distillation with no labels. We show the synergy between DINO and ViTs
+    by achieving 80.1% top-1 on ImageNet in linear evaluation with ViT-Base.
+  }
+}
+@inproceedings{Radford2021CLIP,
+  title        = {Learning Transferable Visual Models From Natural Language Supervision},
+  author       = {
+    Radford, Alec and Kim, Jong Wook and Hallacy, Chris and Ramesh, Aditya and
+    Goh, Gabriel and Agarwal, Sandhini and Sastry, Girish and Askell, Amanda
+    and Mishkin, Pamela and Clark, Jack and Krueger, Gretchen and Sutskever,
+    Ilya
+  },
+  year         = 2021,
+  month        = {18--24 Jul},
+  booktitle    = {Proceedings of the 38th International Conference on Machine Learning},
+  publisher    = {PMLR},
+  series       = {Proceedings of Machine Learning Research},
+  volume       = 139,
+  pages        = {8748--8763},
+  url          = {https://proceedings.mlr.press/v139/radford21a.html},
+  editor       = {Meila, Marina and Zhang, Tong},
+  pdf          = {http://proceedings.mlr.press/v139/radford21a/radford21a.pdf},
+  abstract     = {
+    State-of-the-art computer vision systems are trained to predict a fixed set
+    of predetermined object categories. This restricted form of supervision
+    limits their generality and usability since additional labeled data is
+    needed to specify any other visual concept. Learning directly from raw text
+    about images is a promising alternative which leverages a much broader
+    source of supervision. We demonstrate that the simple pre-training task of
+    predicting which caption goes with which image is an efficient and scalable
+    way to learn SOTA image representations from scratch on a dataset of 400
+    million (image, text) pairs collected from the internet. After
+    pre-training, natural language is used to reference learned visual concepts
+    (or describe new ones) enabling zero-shot transfer of the model to
+    downstream tasks. We study the performance of this approach by benchmarking
+    on over 30 different existing computer vision datasets, spanning tasks such
+    as OCR, action recognition in videos, geo-localization, and many types of
+    fine-grained object classification. The model transfers non-trivially to
+    most tasks and is often competitive with a fully supervised baseline
+    without the need for any dataset specific training. For instance, we match
+    the accuracy of the original ResNet-50 on ImageNet zero-shot without
+    needing to use any of the 1.28 million training examples it was trained on.
+  }
+}
+@inproceedings{He2020MoCo,
+  title        = {Momentum Contrast for Unsupervised Visual Representation Learning},
+  author       = {
+    He, Kaiming and Fan, Haoqi and Wu, Yuxin and Xie, Saining and Girshick,
+    Ross
+  },
+  year         = 2020,
+  month        = {June},
+  booktitle    = {2020 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+  pages        = {9726--9735},
+  doi          = {10.1109/CVPR42600.2020.00975},
+  issn         = {2575-7075},
+  abstract     = {
+    We present Momentum Contrast (MoCo) for unsupervised visual representation
+    learning. From a perspective on contrastive learning as dictionary look-up,
+    we build a dynamic dictionary with a queue and a moving-averaged encoder.
+    This enables building a large and consistent dictionary on-the-fly that
+    facilitates contrastive unsupervised learning. MoCo provides competitive
+    results under the common linear protocol on ImageNet classification. More
+    importantly, the representations learned by MoCo transfer well to
+    downstream tasks. MoCo can outperform its supervised pre-training
+    counterpart in 7 detection/segmentation tasks on PASCAL VOC, COCO, and
+    other datasets, sometimes surpassing it by large margins. This suggests
+    that the gap between unsupervised and supervised representation learning
+    has been largely closed in many vision tasks.
+  }
+}
+@inproceedings{Chen2020SimCLR,
+  title        = {A Simple Framework for Contrastive Learning of Visual Representations},
+  author       = {Chen, Ting and Kornblith, Simon and Norouzi, Mohammad and Hinton, Geoffrey},
+  year         = 2020,
+  month        = {13--18 Jul},
+  booktitle    = {Proceedings of the 37th International Conference on Machine Learning},
+  publisher    = {PMLR},
+  series       = {Proceedings of Machine Learning Research},
+  volume       = 119,
+  pages        = {1597--1607},
+  url          = {https://proceedings.mlr.press/v119/chen20j.html},
+  editor       = {III, Hal Daumé and Singh, Aarti},
+  pdf          = {http://proceedings.mlr.press/v119/chen20j/chen20j.pdf},
+  abstract     = {
+    This paper presents SimCLR: a simple framework for contrastive learning of
+    visual representations. We simplify recently proposed contrastive
+    self-supervised learning algorithms without requiring specialized
+    architectures or a memory bank. In order to understand what enables the
+    contrastive prediction tasks to learn useful representations, we
+    systematically study the major components of our framework. We show that
+    (1) composition of data augmentations plays a critical role in defining
+    effective predictive tasks, (2) introducing a learnable nonlinear
+    transformation between the representation and the contrastive loss
+    substantially improves the quality of the learned representations, and (3)
+    contrastive learning benefits from larger batch sizes and more training
+    steps compared to supervised learning. By combining these findings, we are
+    able to considerably outperform previous methods for self-supervised and
+    semi-supervised learning on ImageNet. A linear classifier trained on
+    self-supervised representations learned by SimCLR achieves 76.5% top-1
+    accuracy, which is a 7% relative improvement over previous
+    state-of-the-art, matching the performance of a supervised ResNet-50. When
+    fine-tuned on only 1% of the labels, we achieve 85.8% top-5 accuracy,
+    outperforming AlexNet with 100X fewer labels.
+  }
+}
+@inproceedings{He2019Rethinking,
+  title        = {Rethinking ImageNet Pre-Training},
+  author       = {He, Kaiming and Girshick, Ross and Dollar, Piotr},
+  year         = 2019,
+  month        = {Oct},
+  booktitle    = {2019 IEEE/CVF International Conference on Computer Vision (ICCV)},
+  pages        = {4917--4926},
+  doi          = {10.1109/ICCV.2019.00502},
+  issn         = {2380-7504},
+  abstract     = {
+    We report competitive results on object detection and instance segmentation
+    on the COCO dataset using standard models trained from random
+    initialization. The results are no worse than their ImageNet pre-training
+    counterparts even when using the hyper-parameters of the baseline system
+    (Mask R-CNN) that were optimized for fine-tuning pre-trained models, with
+    the sole exception of increasing the number of training iterations so the
+    randomly initialized models may converge. Training from random
+    initialization is surprisingly robust; our results hold even when: (i)
+    using only 10% of the training data, (ii) for deeper and wider models, and
+    (iii) for multiple tasks and metrics. Experiments show that ImageNet
+    pre-training speeds up convergence early in training, but does not
+    necessarily provide regularization or improve final target task accuracy.
+    To push the envelope we demonstrate 50.9 AP on COCO object detection
+    without using any external data-a result on par with the top COCO 2017
+    competition results that used ImageNet pre-training. These observations
+    challenge the conventional wisdom of ImageNet pre-training for dependent
+    tasks and we expect these discoveries will encourage people to rethink the
+    current de facto paradigm of `pretraining and fine-tuning' in computer
+    vision.
+  }
+}

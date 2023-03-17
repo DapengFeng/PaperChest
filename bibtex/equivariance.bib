@@ -1,0 +1,44 @@
+@inproceedings{Fuchs2020SE3-Transformers,
+  title        = {SE(3)-Transformers: 3D Roto-Translation Equivariant Attention Networks},
+  author       = {Fuchs, Fabian and Worrall, Daniel and Fischer, Volker and Welling, Max},
+  year         = 2020,
+  booktitle    = {Advances in Neural Information Processing Systems},
+  publisher    = {Curran Associates, Inc.},
+  volume       = 33,
+  pages        = {1970--1981},
+  url          = {
+    https://proceedings.neurips.cc/paper/2020/file/15231a7ce4ba789d13b722cc5c955834-Paper.pdf
+  },
+  editor       = {H. Larochelle and M. Ranzato and R. Hadsell and M.F. Balcan and H. Lin}
+}
+@inproceedings{Worrall2017HarmonicNetworks,
+  title        = {Harmonic Networks: Deep Translation and Rotation Equivariance},
+  author       = {
+    Worrall, Daniel E. and Garbin, Stephan J. and Turmukhambetov, Daniyar and
+    Brostow, Gabriel J.
+  },
+  year         = 2017,
+  month        = {July},
+  booktitle    = {2017 IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},
+  pages        = {7168--7177},
+  doi          = {10.1109/CVPR.2017.758},
+  issn         = {1063-6919},
+  abstract     = {
+    Translating or rotating an input image should not affect the results of
+    many computer vision tasks. Convolutional neural networks (CNNs) are
+    already translation equivariant: input image translations produce
+    proportionate feature map translations. This is not the case for rotations.
+    Global rotation equivariance is typically sought through data augmentation,
+    but patch-wise equivariance is more difficult. We present Harmonic Networks
+    or H-Nets, a CNN exhibiting equivariance to patch-wise translation and
+    360-rotation. We achieve this by replacing regular CNN filters with
+    circular harmonics, returning a maximal response and orientation for every
+    receptive field patch. H-Nets use a rich, parameter-efficient and fixed
+    computational complexity representation, and we show that deep feature maps
+    within the network encode complicated rotational invariants. We demonstrate
+    that our layers are general enough to be used in conjunction with the
+    latest architectures and techniques, such as deep supervision and batch
+    normalization. We also achieve state-of-the-art classification on
+    rotated-MNIST, and competitive results on other benchmark challenges.
+  }
+}
