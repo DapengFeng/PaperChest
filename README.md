@@ -100,6 +100,7 @@
 - **GPipe: Efficient Training of Giant Neural Networks using Pipeline Parallelism**, (2019) [[bib]](bibtex/system.bib#L89-L110) 
 
 ## Papers in 2018
+- **SECOND: Sparsely Embedded Convolutional Detection**, (2018) [[DOI]](https://doi.org/10.3390/s18103337)  [[bib]](bibtex/object-detection.bib#L271-L298) 
 - **Functional Map of the World**, (2018) [[DOI]](https://doi.org/10.1109/CVPR.2018.00646)  [[bib]](bibtex/remote-sensing.bib#L1163-L1186) 
 - **Neural Tangent Kernel: Convergence and Generalization in Neural Networks**, (2018) [[bib]](bibtex/theory.bib#L1-L37) 
 - **Space-Air-Ground Integrated Network: A Survey**, (2018) [[DOI]](https://doi.org/10.1109/COMST.2018.2841996)  [[bib]](bibtex/sagin.bib#L1-L34) 
