@@ -296,3 +296,53 @@
     speed.
   }
 }
+@INPROCEEDINGS{Guo2022Hire-MLP,
+
+  author={Guo, Jianyuan and Tang, Yehui and Han, Kai and Chen, Xinghao and Wu, Han and Xu, Chao and Xu, Chang and Wang, Yunhe},
+
+  booktitle={2022 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)}, 
+
+  title={Hire-MLP: Vision MLP via Hierarchical Rearrangement}, 
+
+  year={2022},
+
+  volume={},
+
+  number={},
+
+  pages={816-826},
+
+  abstract={Previous vision MLPs such as MLP-Mixer and ResMLP accept linearly flattened image patches as input, making them inflexible for different input sizes and hard to capture spatial information. Such approach withholds MLPs from getting comparable performance with their transformer-based counterparts and prevents them from becoming a general backbone for computer vision. This paper presents Hire-MLP, a simple yet competitive vision MLP architecture via Hierarchical rearrangement, which contains two levels of rearrangements. Specifically, the inner-region rearrangement is proposed to capture local information inside a spatial region, and the cross-region rearrangement is proposed to enable information communication between different regions and capture global context by circularly shifting all tokens along spatial directions. Extensive experiments demonstrate the effectiveness of Hire-MLP as a versatile backbone for various vision tasks. In particular, Hire-MLP achieves competitive results on image classification, object detection and semantic segmentation tasks, e.g., 83.8% top-1 accuracy on ImageNet, 51.7% box AP and 44.8% mask AP on COCO val2017, and 49.9% mIoU on ADE20K, surpassing previous transformer-based and MLP-based models with better trade-off for accuracy and throughput.},
+
+  keywords={},
+
+  doi={10.1109/CVPR52688.2022.00090},
+
+  ISSN={2575-7075},
+
+  month={June},}
+@INPROCEEDINGS{Tang2022Wave-MLP,
+
+  author={Tang, Yehui and Han, Kai and Guo, Jianyuan and Xu, Chang and Li, Yanxi and Xu, Chao and Wang, Yunhe},
+
+  booktitle={2022 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)}, 
+
+  title={An Image Patch is a Wave: Phase-Aware Vision MLP}, 
+
+  year={2022},
+
+  volume={},
+
+  number={},
+
+  pages={10925-10934},
+
+  abstract={In the field of computer vision, recent works show that a pure MLP architecture mainly stacked by fully-connected layers can achieve competing performance with CNN and transformer. An input image of vision MLP is usually split into multiple tokens (patches), while the existing MLP models directly aggregate them with fixed weights, neglecting the varying semantic information of tokens from different images. To dynamically aggregate tokens, we propose to represent each token as a wave function with two parts, amplitude and phase. Amplitude is the original feature and the phase term is a complex value changing according to the semantic contents of input images. Introducing the phase term can dynamically modulate the relationship between tokens and fixed weights in MLP. Based on the wave-like token representation, we establish a novel Wave-MLP architecture for vision tasks. Extensive experiments demonstrate that the proposed Wave-MLP is superior to the state-of-the-art MLP architectures on various vision tasks such as image classification, object detection and semantic segmentation. The source code is available at https://github.com/huawei-noah/CV-Backbones/tree/master/wavemlp_pytorch and https://gitee.com/mindspore/models/tree/master/research/cv/wave_mlp.},
+
+  keywords={},
+
+  doi={10.1109/CVPR52688.2022.01066},
+
+  ISSN={2575-7075},
+
+  month={June},}
