@@ -91,6 +91,7 @@
 - **Satellite Image Time Series Classification With Pixel-Set Encoders and Temporal Self-Attention**, (2020) [[DOI]](https://doi.org/10.1109/CVPR42600.2020.01234)  [[bib]](bibtex/remote-sensing.bib#L1002-L1035) 
 - **NeRF: Representing Scenes as Neural Radiance Fields for View Synthesis**, (2020) [[bib]](bibtex/3d-reconstruction.bib#L393-L426) 
 - **Fourier Features Let Networks Learn High Frequency Functions in Low Dimensional Domains**, (2020) [[bib]](bibtex/3d-reconstruction.bib#L427-L446) 
+- **Complex-Valued Neural Networks With Nonparametric Activation Functions**, (2020) [[DOI]](https://doi.org/10.1109/TETCI.2018.2872600)  [[bib]](bibtex/theory.bib#L1-L36) 
 
 ## Papers in 2019
 - **Rethinking ImageNet Pre-Training**, (2019) [[DOI]](https://doi.org/10.1109/ICCV.2019.00502)  [[bib]](bibtex/pre-training.bib#L196-L226) 
@@ -104,8 +105,8 @@
 ## Papers in 2018
 - **SECOND: Sparsely Embedded Convolutional Detection**, (2018) [[DOI]](https://doi.org/10.3390/s18103337)  [[bib]](bibtex/object-detection.bib#L337-L364) 
 - **Functional Map of the World**, (2018) [[DOI]](https://doi.org/10.1109/CVPR.2018.00646)  [[bib]](bibtex/remote-sensing.bib#L1163-L1186) 
-- **{G}rad{N}orm: Gradient Normalization for Adaptive Loss Balancing in Deep Multitask Networks**, (2018) [[bib]](bibtex/theory.bib#L1-L40) 
-- **Neural Tangent Kernel: Convergence and Generalization in Neural Networks**, (2018) [[bib]](bibtex/theory.bib#L41-L77) 
+- **{G}rad{N}orm: Gradient Normalization for Adaptive Loss Balancing in Deep Multitask Networks**, (2018) [[bib]](bibtex/theory.bib#L37-L76) 
+- **Neural Tangent Kernel: Convergence and Generalization in Neural Networks**, (2018) [[bib]](bibtex/theory.bib#L77-L113) 
 - **Space-Air-Ground Integrated Network: A Survey**, (2018) [[DOI]](https://doi.org/10.1109/COMST.2018.2841996)  [[bib]](bibtex/sagin.bib#L1-L34) 
 
 ## Papers in 2017
