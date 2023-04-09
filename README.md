@@ -109,6 +109,7 @@
 - **Deep Complex Networks**, (2018) [[bib]](bibtex/theory.bib#L77-L87) 
 - **Neural Tangent Kernel: Convergence and Generalization in Neural Networks**, (2018) [[bib]](bibtex/theory.bib#L88-L124) 
 - **Space-Air-Ground Integrated Network: A Survey**, (2018) [[DOI]](https://doi.org/10.1109/COMST.2018.2841996)  [[bib]](bibtex/sagin.bib#L1-L34) 
+- **All-optical machine learning using diffractive deep neural networks**, (2018) [[DOI]](https://doi.org/10.1126/science.aat8084)  [[bib]](bibtex/chip.bib#L1-L40) 
 
 ## Papers in 2017
 - **{Metric Evaluation Pipeline for 3d Modeling of Urban Scenes}**, (2017) [[DOI]](https://doi.org/10.5194/isprs-archives-XLII-1-W1-239-2017)  [[bib]](bibtex/remote-sensing.bib#L1187-L1204) 
