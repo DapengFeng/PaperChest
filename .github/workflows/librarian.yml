@@ -40,8 +40,9 @@ jobs:
           
       - name: Linting Bibtex 
         run: |
-          bibtex-tidy --version
+          npm --version
           node --version
+          bibtex-tidy --version
           bibtex-tidy --curly --numeric --align=13 --sort=-year,author --duplicates=key \
           --no-escape --sort-fields --remove-empty-fields --no-remove-dupe-fields \
           --wrap=80 bibtex/*
