@@ -1,0 +1,8 @@
+repos:
+  - repo: https://github.com/FlamingTempura/bibtex-tidy
+    rev: v1.11.0
+    hooks:
+      - id: bibtex-tidy
+        args: ['--curly', '--numeric', '--align=13', '--sort=-year,author',
+               '--duplicates=key', '--no-escape', '--sort-fields', '--modify',
+               '--remove-empty-fields', '--no-remove-dupe-fields', '--wrap=80']
