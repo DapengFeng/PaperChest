@@ -12,7 +12,8 @@
 ## Papers in 2023
 - **Bridging Precision and Confidence: A Train-Time Loss for Calibrating Object Detection**, (2023) [[bib]](bibtex/object-detection.bib#L1-L14) 
 - **Knowledge Combination to Learn Rotated Detection Without Rotated Annotation**, (2023) [[bib]](bibtex/object-detection.bib#L15-L27) 
-- **Revisiting Rotation Averaging: Uncertainties and Robust Losses**, (2023) [[bib]](bibtex/3d-reconstruction.bib#L1-L8) 
+- **Learning Rotation-Equivariant Features for Visual Correspondence**, (2023) [[bib]](bibtex/3d-reconstruction.bib#L1-L8) 
+- **Revisiting Rotation Averaging: Uncertainties and Robust Losses**, (2023) [[bib]](bibtex/3d-reconstruction.bib#L9-L16) 
 
 ## Papers in 2022
 - **Transformers in Remote Sensing: {A} Survey**, (2022) [[DOI]](https://doi.org/10.48550/arXiv.2209.01206)  [[bib]](bibtex/remote-sensing.bib#L1-L18) 
@@ -41,15 +42,15 @@
 - **Scaling Language-Image Pre-training via Masking**, (2022) [[DOI]](https://doi.org/10.48550/ARXIV.2212.00794)  [[bib]](bibtex/pre-training.bib#L1-L16) 
 - **Masked Autoencoders As Spatiotemporal Learners**, (2022) [[DOI]](https://doi.org/10.48550/ARXIV.2205.09113)  [[bib]](bibtex/pre-training.bib#L17-L30) 
 - **SLIP: Self-supervision Meets Language-Image Pre-training**, (2022) [[bib]](bibtex/pre-training.bib#L31-L64) 
-- **Efficient Geometry-aware 3D Generative Adversarial Networks**, (2022) [[DOI]](https://doi.org/10.1109/CVPR52688.2022.01565)  [[bib]](bibtex/3d-reconstruction.bib#L9-L40) 
-- **Gravitationally Lensed Black Hole Emission Tomography**, (2022) [[DOI]](https://doi.org/10.1109/CVPR52688.2022.01922)  [[bib]](bibtex/3d-reconstruction.bib#L41-L74) 
-- **AutoRF: Learning 3D Object Radiance Fields from Single View Observations**, (2022) [[DOI]](https://doi.org/10.1109/CVPR52688.2022.00394)  [[bib]](bibtex/3d-reconstruction.bib#L75-L106) 
-- **RegNeRF: Regularizing Neural Radiance Fields for View Synthesis from Sparse Inputs**, (2022) [[DOI]](https://doi.org/10.1109/CVPR52688.2022.00540)  [[bib]](bibtex/3d-reconstruction.bib#L107-L138) 
-- **ImpliCity: City Modeling from Satellite Images with Deep Implicit Occupancy Fields**, (2022) [[DOI]](https://doi.org/10.5194/isprs-annals-V-2-2022-193-2022)  [[bib]](bibtex/3d-reconstruction.bib#L139-L159) 
-- **Block-NeRF: Scalable Large Scene Neural View Synthesis**, (2022) [[DOI]](https://doi.org/10.1109/CVPR52688.2022.00807)  [[bib]](bibtex/3d-reconstruction.bib#L160-L189) 
-- **Fourier PlenOctrees for Dynamic Radiance Field Rendering in Real-time**, (2022) [[DOI]](https://doi.org/10.1109/CVPR52688.2022.01316)  [[bib]](bibtex/3d-reconstruction.bib#L190-L224) 
-- **BungeeNeRF: Progressive Neural Radiance Field for Extreme Multi-scale Scene Rendering**, (2022) [[bib]](bibtex/3d-reconstruction.bib#L225-L268) 
-- **Mega-NeRF: Scalable Construction of Large-Scale NeRFs for Virtual Fly- Throughs**, (2022) [[DOI]](https://doi.org/10.1109/CVPR52688.2022.01258)  [[bib]](bibtex/3d-reconstruction.bib#L269-L304) 
+- **Efficient Geometry-aware 3D Generative Adversarial Networks**, (2022) [[DOI]](https://doi.org/10.1109/CVPR52688.2022.01565)  [[bib]](bibtex/3d-reconstruction.bib#L17-L48) 
+- **Gravitationally Lensed Black Hole Emission Tomography**, (2022) [[DOI]](https://doi.org/10.1109/CVPR52688.2022.01922)  [[bib]](bibtex/3d-reconstruction.bib#L49-L82) 
+- **AutoRF: Learning 3D Object Radiance Fields from Single View Observations**, (2022) [[DOI]](https://doi.org/10.1109/CVPR52688.2022.00394)  [[bib]](bibtex/3d-reconstruction.bib#L83-L114) 
+- **RegNeRF: Regularizing Neural Radiance Fields for View Synthesis from Sparse Inputs**, (2022) [[DOI]](https://doi.org/10.1109/CVPR52688.2022.00540)  [[bib]](bibtex/3d-reconstruction.bib#L115-L146) 
+- **ImpliCity: City Modeling from Satellite Images with Deep Implicit Occupancy Fields**, (2022) [[DOI]](https://doi.org/10.5194/isprs-annals-V-2-2022-193-2022)  [[bib]](bibtex/3d-reconstruction.bib#L147-L167) 
+- **Block-NeRF: Scalable Large Scene Neural View Synthesis**, (2022) [[DOI]](https://doi.org/10.1109/CVPR52688.2022.00807)  [[bib]](bibtex/3d-reconstruction.bib#L168-L197) 
+- **Fourier PlenOctrees for Dynamic Radiance Field Rendering in Real-time**, (2022) [[DOI]](https://doi.org/10.1109/CVPR52688.2022.01316)  [[bib]](bibtex/3d-reconstruction.bib#L198-L232) 
+- **BungeeNeRF: Progressive Neural Radiance Field for Extreme Multi-scale Scene Rendering**, (2022) [[bib]](bibtex/3d-reconstruction.bib#L233-L276) 
+- **Mega-NeRF: Scalable Construction of Large-Scale NeRFs for Virtual Fly- Throughs**, (2022) [[DOI]](https://doi.org/10.1109/CVPR52688.2022.01258)  [[bib]](bibtex/3d-reconstruction.bib#L277-L312) 
 
 ## Papers in 2021
 - **Point-Guided Contrastive Learning for Monocular 3-D Object Detection**, (2021) [[DOI]](https://doi.org/10.1109/TCYB.2021.3090370)  [[bib]](bibtex/myself.bib#L1-L33) 
@@ -76,9 +77,9 @@
 - **General Nonlinearities in SO(2)-Equivariant CNNs**, (2021) [[bib]](bibtex/equivariance.bib#L42-L57) 
 - **Emerging Properties in Self-Supervised Vision Transformers**, (2021) [[DOI]](https://doi.org/10.1109/ICCV48922.2021.00951)  [[bib]](bibtex/pre-training.bib#L65-L93) 
 - **Learning Transferable Visual Models From Natural Language Supervision**, (2021) [[bib]](bibtex/pre-training.bib#L94-L133) 
-- **Pixel-Perfect Structure-from-Motion with Featuremetric Refinement**, (2021) [[DOI]](https://doi.org/10.1109/ICCV48922.2021.00593)  [[bib]](bibtex/3d-reconstruction.bib#L305-L336) 
-- **NeRF in the Wild: Neural Radiance Fields for Unconstrained Photo Collections**, (2021) [[DOI]](https://doi.org/10.1109/CVPR46437.2021.00713)  [[bib]](bibtex/3d-reconstruction.bib#L337-L368) 
-- **GIRAFFE: Representing Scenes as Compositional Generative Neural Feature Fields**, (2021) [[DOI]](https://doi.org/10.1109/CVPR46437.2021.01129)  [[bib]](bibtex/3d-reconstruction.bib#L369-L400) 
+- **Pixel-Perfect Structure-from-Motion with Featuremetric Refinement**, (2021) [[DOI]](https://doi.org/10.1109/ICCV48922.2021.00593)  [[bib]](bibtex/3d-reconstruction.bib#L313-L344) 
+- **NeRF in the Wild: Neural Radiance Fields for Unconstrained Photo Collections**, (2021) [[DOI]](https://doi.org/10.1109/CVPR46437.2021.00713)  [[bib]](bibtex/3d-reconstruction.bib#L345-L376) 
+- **GIRAFFE: Representing Scenes as Compositional Generative Neural Feature Fields**, (2021) [[DOI]](https://doi.org/10.1109/CVPR46437.2021.01129)  [[bib]](bibtex/3d-reconstruction.bib#L377-L408) 
 - **Back to the Feature: Learning Robust Camera Localization from Pixels to Pose**, (2021) [[DOI]](https://doi.org/10.1109/CVPR46437.2021.00326)  [[bib]](bibtex/slam.bib#L1-L36) 
 - **iNeRF: Inverting Neural Radiance Fields for Pose Estimation**, (2021) [[DOI]](https://doi.org/10.1109/IROS51168.2021.9636708)  [[bib]](bibtex/slam.bib#L37-L73) 
 - **DROID-SLAM: Deep Visual SLAM for Monocular, Stereo, and RGB-D Cameras**, (2021) [[bib]](bibtex/slam.bib#L74-L89) 
@@ -96,8 +97,8 @@
 - **SE(3)-Transformers: 3D Roto-Translation Equivariant Attention Networks**, (2020) [[bib]](bibtex/equivariance.bib#L58-L70) 
 - **Momentum Contrast for Unsupervised Visual Representation Learning**, (2020) [[DOI]](https://doi.org/10.1109/CVPR42600.2020.00975)  [[bib]](bibtex/pre-training.bib#L134-L160) 
 - **A Simple Framework for Contrastive Learning of Visual Representations**, (2020) [[bib]](bibtex/pre-training.bib#L161-L195) 
-- **NeRF: Representing Scenes as Neural Radiance Fields for View Synthesis**, (2020) [[bib]](bibtex/3d-reconstruction.bib#L401-L434) 
-- **Fourier Features Let Networks Learn High Frequency Functions in Low Dimensional Domains**, (2020) [[bib]](bibtex/3d-reconstruction.bib#L435-L454) 
+- **NeRF: Representing Scenes as Neural Radiance Fields for View Synthesis**, (2020) [[bib]](bibtex/3d-reconstruction.bib#L409-L442) 
+- **Fourier Features Let Networks Learn High Frequency Functions in Low Dimensional Domains**, (2020) [[bib]](bibtex/3d-reconstruction.bib#L443-L462) 
 
 ## Papers in 2019
 - **Semantic Stereo for Incidental Satellite Images**, (2019) [[DOI]](https://doi.org/10.1109/WACV.2019.00167)  [[bib]](bibtex/remote-sensing.bib#L1036-L1065) 
@@ -124,7 +125,7 @@
 
 ## Papers in 2016
 - **Steerable CNNs**, (2016) [[DOI]](https://doi.org/10.48550/ARXIV.1612.08498)  [[bib]](bibtex/equivariance.bib#L102-L114) 
-- **Structure-from-Motion Revisited**, (2016) [[DOI]](https://doi.org/10.1109/CVPR.2016.445)  [[bib]](bibtex/3d-reconstruction.bib#L455-L474) 
+- **Structure-from-Motion Revisited**, (2016) [[DOI]](https://doi.org/10.1109/CVPR.2016.445)  [[bib]](bibtex/3d-reconstruction.bib#L463-L482) 
 
 ## Papers in 2009
-- **Building Rome in a day**, (2009) [[DOI]](https://doi.org/10.1109/ICCV.2009.5459148)  [[bib]](bibtex/3d-reconstruction.bib#L475-L501) 
+- **Building Rome in a day**, (2009) [[DOI]](https://doi.org/10.1109/ICCV.2009.5459148)  [[bib]](bibtex/3d-reconstruction.bib#L483-L509) 
