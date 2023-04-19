@@ -138,6 +138,40 @@
   year         = 2022,
   journal      = {arXiv preprint arXiv: Arxiv-2201.12558}
 }
+@inproceedings{Guo2021CFA,
+  title        = {
+    Beyond Bounding-Box: Convex-hull Feature Adaptation for Oriented and
+    Densely Packed Object Detection
+  },
+  author       = {
+    Guo, Zonghao and Liu, Chang and Zhang, Xiaosong and Jiao, Jianbin and Ji,
+    Xiangyang and Ye, Qixiang
+  },
+  year         = 2021,
+  month        = {June},
+  booktitle    = {2021 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+  pages        = {8788--8797},
+  doi          = {10.1109/CVPR46437.2021.00868},
+  issn         = {2575-7075},
+  abstract     = {
+    Detecting oriented and densely packed objects remains challenging for
+    spatial feature aliasing caused by the intersection of reception fields
+    between objects. In this paper, we propose a convex-hull feature adaptation
+    (CFA) approach for configuring convolutional features in accordance with
+    oriented and densely packed object layouts. CFA is rooted in convex-hull
+    feature representation, which defines a set of dynamically predicted
+    feature points guided by the convex intersection over union (CIoU) to bound
+    the extent of objects. CFA pursues optimal feature assignment by
+    constructing convex-hull sets and dynamically splitting positive or
+    negative convex-hulls. By simultaneously considering overlapping
+    convex-hulls and objects and penalizing convex-hulls shared by multiple
+    objects, CFA alleviates spatial feature aliasing towards optimal feature
+    adaptation. Experiments on DOTA and SKU110K-R datasets show that CFA
+    significantly outperforms the baseline approach, achieving new
+    state-of-the-art detection performance. Code is available at
+    github.com/SDL-GuoZonghao/BeyondBoundingBox.
+  }
+}
 @inproceedings{Liu2021SwinTransformer,
   title        = {Swin Transformer: Hierarchical Vision Transformer using Shifted Windows},
   author       = {
