@@ -18,6 +18,7 @@
 - **Revisiting Rotation Averaging: Uncertainties and Robust Losses**, (2023) [[bib]](bibtex/3d-reconstruction.bib#L9-L16) 
 
 ## Papers in 2022
+- **S3E: A Large-scale Multimodal Dataset for Collaborative SLAM**, (2022) [[bib]](bibtex/myself.bib#L1-L9) 
 - **Transformers in Remote Sensing: {A} Survey**, (2022) [[DOI]](https://doi.org/10.48550/arXiv.2209.01206)  [[bib]](bibtex/remote-sensing.bib#L1-L18) 
 - **Interactive Multi-Class Tiny-Object Detection**, (2022) [[DOI]](https://doi.org/10.1109/CVPR52688.2022.01374)  [[bib]](bibtex/remote-sensing.bib#L19-L50) 
 - **Deep learning in multimodal remote sensing data fusion: A comprehensive review**, (2022) [[DOI]](https://doi.org/https://doi.org/10.1016/j.jag.2022.102926)  [[bib]](bibtex/remote-sensing.bib#L51-L99) 
@@ -57,8 +58,8 @@
 - **Mega-NeRF: Scalable Construction of Large-Scale NeRFs for Virtual Fly- Throughs**, (2022) [[DOI]](https://doi.org/10.1109/CVPR52688.2022.01258)  [[bib]](bibtex/3d-reconstruction.bib#L277-L312) 
 
 ## Papers in 2021
-- **Point-Guided Contrastive Learning for Monocular 3-D Object Detection**, (2021) [[DOI]](https://doi.org/10.1109/TCYB.2021.3090370)  [[bib]](bibtex/myself.bib#L1-L33) 
-- **Exploring Geometry-aware Contrast and Clustering Harmonization for Self-supervised 3D Object Detection**, (2021) [[DOI]](https://doi.org/10.1109/ICCV48922.2021.00328)  [[bib]](bibtex/myself.bib#L34-L75) 
+- **Point-Guided Contrastive Learning for Monocular 3-D Object Detection**, (2021) [[DOI]](https://doi.org/10.1109/TCYB.2021.3090370)  [[bib]](bibtex/myself.bib#L10-L42) 
+- **Exploring Geometry-aware Contrast and Clustering Harmonization for Self-supervised 3D Object Detection**, (2021) [[DOI]](https://doi.org/10.1109/ICCV48922.2021.00328)  [[bib]](bibtex/myself.bib#L43-L84) 
 - **Single View Geocentric Pose in the Wild**, (2021) [[DOI]](https://doi.org/10.1109/CVPRW53098.2021.00127)  [[bib]](bibtex/remote-sensing.bib#L437-L466) 
 - **Cumulative Assessment for Urban 3D Modeling**, (2021) [[DOI]](https://doi.org/10.1109/IGARSS47720.2021.9554754)  [[bib]](bibtex/remote-sensing.bib#L467-L490) 
 - **Inferring high-resolution traffic accident risk maps based on satellite imagery and GPS trajectories**, (2021) [[DOI]](https://doi.org/10.1109/ICCV48922.2021.01176)  [[bib]](bibtex/remote-sensing.bib#L491-L521) 
