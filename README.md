@@ -7,6 +7,7 @@
 - [Papers-in-2018](https://github.com/DapengFeng/PaperChest/blob/master/README.md#Papers-in-2018)
 - [Papers-in-2017](https://github.com/DapengFeng/PaperChest/blob/master/README.md#Papers-in-2017)
 - [Papers-in-2016](https://github.com/DapengFeng/PaperChest/blob/master/README.md#Papers-in-2016)
+- [Papers-in-2015](https://github.com/DapengFeng/PaperChest/blob/master/README.md#Papers-in-2015)
 - [Papers-in-2013](https://github.com/DapengFeng/PaperChest/blob/master/README.md#Papers-in-2013)
 - [Papers-in-2009](https://github.com/DapengFeng/PaperChest/blob/master/README.md#Papers-in-2009)
 
@@ -121,6 +122,7 @@
 - **GPipe: Efficient Training of Giant Neural Networks using Pipeline Parallelism**, (2019) [[bib]](bibtex/system.bib#L120-L141) 
 - **PyTorch: An Imperative Style, High-Performance Deep Learning Library**, (2019) [[bib]](bibtex/system.bib#L142-L163) 
 - **Decoupled Weight Decay Regularization**, (2019) [[bib]](bibtex/theory.bib#L56-L62) 
+- **General E(2)-Equivariant Steerable CNNs**, (2019) [[bib]](bibtex/equivariance.bib#L71-L85) 
 - **Rethinking ImageNet Pre-Training**, (2019) [[DOI]](https://doi.org/10.1109/ICCV.2019.00502)  [[bib]](bibtex/pre-training.bib#L196-L226) 
 
 ## Papers in 2018
@@ -138,15 +140,19 @@
 - **{Metric Evaluation Pipeline for 3d Modeling of Urban Scenes}**, (2017) [[DOI]](https://doi.org/10.5194/isprs-archives-XLII-1-W1-239-2017)  [[bib]](bibtex/remote-sensing.bib#L1216-L1233) 
 - **Feature Pyramid Networks for Object Detection**, (2017) [[DOI]](https://doi.org/10.1109/CVPR.2017.106)  [[bib]](bibtex/object-detection.bib#L512-L542) 
 - **Attention is All you Need**, (2017) [[bib]](bibtex/theory.bib#L151-L168) 
-- **Harmonic Networks: Deep Translation and Rotation Equivariance**, (2017) [[DOI]](https://doi.org/10.1109/CVPR.2017.758)  [[bib]](bibtex/equivariance.bib#L71-L101) 
+- **Harmonic Networks: Deep Translation and Rotation Equivariance**, (2017) [[DOI]](https://doi.org/10.1109/CVPR.2017.758)  [[bib]](bibtex/equivariance.bib#L86-L116) 
 - **Monocular Visual–Inertial State Estimation With Online Initialization and Camera–IMU Extrinsic Calibration**, (2017) [[DOI]](https://doi.org/10.1109/TASE.2016.2550621)  [[bib]](bibtex/hardware-synchronization.bib#L64-L99) 
 
 ## Papers in 2016
-- **Steerable CNNs**, (2016) [[DOI]](https://doi.org/10.48550/ARXIV.1612.08498)  [[bib]](bibtex/equivariance.bib#L102-L114) 
+- **Steerable CNNs**, (2016) [[DOI]](https://doi.org/10.48550/ARXIV.1612.08498)  [[bib]](bibtex/equivariance.bib#L117-L129) 
 - **Structure-from-Motion Revisited**, (2016) [[DOI]](https://doi.org/10.1109/CVPR.2016.445)  [[bib]](bibtex/3d-reconstruction.bib#L463-L482) 
 
+## Papers in 2015
+- **Spatial Transformer Networks**, (2015) [[bib]](bibtex/theory.bib#L169-L183) 
+
 ## Papers in 2013
-- **On the importance of initialization and momentum in deep learning**, (2013) [[bib]](bibtex/theory.bib#L169-L203) 
+- **On the importance of initialization and momentum in deep learning**, (2013) [[bib]](bibtex/theory.bib#L184-L218) 
 
 ## Papers in 2009
+- **ImageNet: A large-scale hierarchical image database**, (2009) [[DOI]](https://doi.org/10.1109/CVPR.2009.5206848)  [[bib]](bibtex/dataset.bib#L72-L106) 
 - **Building Rome in a day**, (2009) [[DOI]](https://doi.org/10.1109/ICCV.2009.5459148)  [[bib]](bibtex/3d-reconstruction.bib#L483-L509) 
