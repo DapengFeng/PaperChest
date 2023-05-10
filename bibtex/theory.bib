@@ -1,3 +1,13 @@
+@inproceedings{Wang2021PE-BERT,
+  title        = {On Position Embeddings in BERT},
+  author       = {
+    Benyou Wang and Lifeng Shang and Christina Lioma and Xin Jiang and Hao Yang
+    and Qun Liu and Jakob Grue Simonsen
+  },
+  year         = 2021,
+  booktitle    = {International Conference on Learning Representations},
+  url          = {https://openreview.net/forum?id=onxoVA9FxMw}
+}
 @inproceedings{Dosovitskiy2021ViT,
   title        = {An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale},
   author       = {
@@ -9,6 +19,102 @@
   year         = 2021,
   booktitle    = {International Conference on Learning Representations},
   url          = {https://openreview.net/forum?id=YicbFdNTTy}
+}
+@inproceedings{Narang2021Transformer,
+  title        = {
+    Do Transformer Modifications Transfer Across Implementations and
+    Applications?
+  },
+  author       = {
+    Narang, Sharan  and Chung, Hyung Won  and Tay, Yi  and Fedus, Liam  and
+    Fevry, Thibault  and Matena, Michael  and Malkan, Karishma  and Fiedel,
+    Noah  and Shazeer, Noam  and Lan, Zhenzhong  and Zhou, Yanqi  and Li, Wei
+    and Ding, Nan  and Marcus, Jake  and Roberts, Adam  and Raffel, Colin
+  },
+  year         = 2021,
+  month        = nov,
+  booktitle    = {
+    Proceedings of the 2021 Conference on Empirical Methods in Natural Language
+    Processing
+  },
+  publisher    = {Association for Computational Linguistics},
+  address      = {Online and Punta Cana, Dominican Republic},
+  pages        = {5758--5773},
+  doi          = {10.18653/v1/2021.emnlp-main.465},
+  url          = {https://aclanthology.org/2021.emnlp-main.465},
+  abstract     = {
+    The research community has proposed copious modifications to the
+    Transformer architecture since it was introduced over three years ago,
+    relatively few of which have seen widespread adoption. In this paper, we
+    comprehensively evaluate many of these modifications in a shared
+    experimental setting that covers most of the common uses of the Transformer
+    in natural language processing. Surprisingly, we find that most
+    modifications do not meaningfully improve performance. Furthermore, most of
+    the Transformer variants we found beneficial were either developed in the
+    same codebase that we used or are relatively minor changes. We conjecture
+    that performance improvements may strongly depend on implementation details
+    and correspondingly make some recommendations for improving the generality
+    of experimental results.
+  }
+}
+@inproceedings{Wu2021RPE,
+  title        = {Rethinking and Improving Relative Position Encoding for Vision Transformer},
+  author       = {
+    Wu, Kan and Peng, Houwen and Chen, Minghao and Fu, Jianlong and Chao,
+    Hongyang
+  },
+  year         = 2021,
+  month        = {Oct},
+  booktitle    = {2021 IEEE/CVF International Conference on Computer Vision (ICCV)},
+  pages        = {10013--10021},
+  doi          = {10.1109/ICCV48922.2021.00988},
+  issn         = {2380-7504},
+  abstract     = {
+    Relative position encoding (RPE) is important for transformer to capture
+    sequence ordering of input tokens. General efficacy has been proven in
+    natural language processing. However, in computer vision, its efficacy is
+    not well studied and even remains controversial, e.g., whether relative
+    position encoding can work equally well as absolute position? In order to
+    clarify this, we first review existing relative position encoding methods
+    and analyze their pros and cons when applied in vision transformers. We
+    then propose new relative position encoding methods dedicated to 2D images,
+    called image RPE (iRPE). Our methods consider directional relative distance
+    modeling as well as the interactions between queries and relative position
+    embeddings in self-attention mechanism. The proposed iRPE methods are
+    simple and lightweight. They can be easily plugged into transformer blocks.
+    Experiments demonstrate that solely due to the proposed encoding methods,
+    DeiT [21] and DETR [1] obtain up to 1.5% (top-1 Acc) and 1.3% (mAP) stable
+    improvements over their original versions on ImageNet and COCO
+    respectively, without tuning any extra hyperparameters such as learning
+    rate and weight decay. Our ablation and analysis also yield interesting
+    findings, some of which run counter to previous understanding. Code and
+    models are open-sourced at
+    https://github.com/microsoft/Cream/tree/main/iRPE.
+  }
+}
+@inproceedings{He2021DEBERTA,
+  title        = {DeBERTa: Decoding-enhanced BERT with Disentangled Attention},
+  author       = {He, Pengcheng and Liu, Xiaodong and Gao, Jianfeng and Chen, Weizhu},
+  year         = 2021,
+  booktitle    = {International Conference on Learning Representations},
+  url          = {https://openreview.net/forum?id=XPZIaotutsD}
+}
+@article{Raffel2020T5,
+  title        = {
+    Exploring the Limits of Transfer Learning with a Unified Text-to-Text
+    Transformer
+  },
+  author       = {
+    Raffel, Colin and Shazeer, Noam and Roberts, Adam and Lee, Katherine and
+    Narang, Sharan and Matena, Michael and Zhou, Yanqi and Li, Wei and Liu,
+    Peter J.
+  },
+  year         = 2020,
+  journal      = {Journal of Machine Learning Research},
+  volume       = 21,
+  number       = 140,
+  pages        = {1--67},
+  url          = {http://jmlr.org/papers/v21/20-074.html}
 }
 @article{Scardapane2020CVNNNAF,
   title        = {Complex-Valued Neural Networks With Nonparametric Activation Functions},
@@ -52,6 +158,90 @@
   year         = 2020,
   booktitle    = {International Conference on Learning Representations},
   url          = {https://openreview.net/forum?id=rJeB36NKvB}
+}
+@inproceedings{Islam2020How,
+  title        = {How much Position Information Do Convolutional Neural Networks Encode?},
+  author       = {Islam, Md Amirul and Jia, Sen and Neil D. B. Bruce},
+  year         = 2020,
+  booktitle    = {International Conference on Learning Representations},
+  url          = {https://openreview.net/forum?id=rJeB36NKvB}
+}
+@inproceedings{Liu2020FLOATER,
+  title        = {
+    Learning to Encode Position for Transformer with Continuous Dynamical Model
+  },
+  author       = {Liu, Xuanqing and Yu, Hsiang-Fu and Dhillon, Inderjit and Hsieh, Cho-Jui},
+  year         = 2020,
+  month        = {13--18 Jul},
+  booktitle    = {Proceedings of the 37th International Conference on Machine Learning},
+  publisher    = {PMLR},
+  series       = {Proceedings of Machine Learning Research},
+  volume       = 119,
+  pages        = {6327--6335},
+  url          = {https://proceedings.mlr.press/v119/liu20n.html},
+  editor       = {III, Hal Daumé and Singh, Aarti},
+  pdf          = {http://proceedings.mlr.press/v119/liu20n/liu20n.pdf},
+  abstract     = {
+    We introduce a new way of learning to encode position information for
+    non-recurrent models, such as Transformer models. Unlike RNN and LSTM,
+    which contain inductive bias by loading the input tokens sequentially,
+    non-recurrent models are less sensitive to position. The main reason is
+    that position information among input units is not encoded inherently,
+    i.e., they are permutation equivalent, this problem justifies why all of
+    the existing models are accompanied by position encoding/embedding layer at
+    the input. However, this solution has clear limitations: the sinusoidal
+    position encoding is not flexible enough as it is manually designed and
+    does not contain any learnable parameters, whereas the position embedding
+    restricts the maximum length of input sequences. It is thus desirable to
+    design a new position layer that contains learnable parameters to adjust to
+    different datasets and different architectures. At the same time, we would
+    also like it to extrapolate in accordance with the variable length of
+    inputs. In our proposed solution, we borrow from the recent Neural ODE
+    approach, which may be viewed as a versatile continuous version of a
+    ResNet. This model is capable of modeling many kinds of dynamical systems.
+    We model the evolution of encoded results along position index by such a
+    dynamical system, thereby overcoming the above limitations of existing
+    methods. We evaluate our new position layers on a variety of neural machine
+    translation and language understanding tasks, the experimental results show
+    consistent improvements over the baselines.
+  }
+}
+@inproceedings{Dai2019Transformer-XL,
+  title        = {Transformer-{XL}: Attentive Language Models beyond a Fixed-Length Context},
+  author       = {
+    Dai, Zihang  and Yang, Zhilin  and Yang, Yiming  and Carbonell, Jaime  and
+    Le, Quoc  and Salakhutdinov, Ruslan
+  },
+  year         = 2019,
+  month        = jul,
+  booktitle    = {
+    Proceedings of the 57th Annual Meeting of the Association for Computational
+    Linguistics
+  },
+  publisher    = {Association for Computational Linguistics},
+  address      = {Florence, Italy},
+  pages        = {2978--2988},
+  doi          = {10.18653/v1/P19-1285},
+  url          = {https://aclanthology.org/P19-1285},
+  abstract     = {
+    Transformers have a potential of learning longer-term dependency, but are
+    limited by a fixed-length context in the setting of language modeling. We
+    propose a novel neural architecture Transformer-XL that enables learning
+    dependency beyond a fixed length without disrupting temporal coherence. It
+    consists of a segment-level recurrence mechanism and a novel positional
+    encoding scheme. Our method not only enables capturing longer-term
+    dependency, but also resolves the context fragmentation problem. As a
+    result, Transformer-XL learns dependency that is 80{\%} longer than RNNs
+    and 450{\%} longer than vanilla Transformers, achieves better performance
+    on both short and long sequences, and is up to 1,800+ times faster than
+    vanilla Transformers during evaluation. Notably, we improve the
+    state-of-the-art results of bpc/perplexity to 0.99 on enwiki8, 1.08 on
+    text8, 18.3 on WikiText-103, 21.8 on One Billion Word, and 54.5 on Penn
+    Treebank (without finetuning). When trained only on WikiText-103,
+    Transformer-XL manages to generate reasonably coherent, novel text articles
+    with thousands of tokens. Our code, pretrained models, and hyperparameters
+    are available in both Tensorflow and PyTorch.
+  }
 }
 @inproceedings{Loshchilov2018AdamW,
   title        = {Decoupled Weight Decay Regularization},
@@ -147,6 +337,70 @@
     its behavior for wide networks, and compare it to the infinite-width limit.
   },
   numpages     = 10
+}
+@inproceedings{Shaw2018RPE,
+  title        = {Self-Attention with Relative Position Representations},
+  author       = {Shaw, Peter  and Uszkoreit, Jakob  and Vaswani, Ashish},
+  year         = 2018,
+  month        = jun,
+  booktitle    = {
+    Proceedings of the 2018 Conference of the North {A}merican Chapter of the
+    Association for Computational Linguistics: Human Language Technologies,
+    Volume 2 (Short Papers)
+  },
+  publisher    = {Association for Computational Linguistics},
+  address      = {New Orleans, Louisiana},
+  pages        = {464--468},
+  doi          = {10.18653/v1/N18-2074},
+  url          = {https://aclanthology.org/N18-2074},
+  abstract     = {
+    Relying entirely on an attention mechanism, the Transformer introduced by
+    Vaswani et al. (2017) achieves state-of-the-art results for machine
+    translation. In contrast to recurrent and convolutional neural networks, it
+    does not explicitly model relative or absolute position information in its
+    structure. Instead, it requires adding representations of absolute
+    positions to its inputs. In this work we present an alternative approach,
+    extending the self-attention mechanism to efficiently consider
+    representations of the relative positions, or distances between sequence
+    elements. On the WMT 2014 English-to-German and English-to-French
+    translation tasks, this approach yields improvements of 1.3 BLEU and 0.3
+    BLEU over absolute position representations, respectively. Notably, we
+    observe that combining relative and absolute position representations
+    yields no further improvement in translation quality. We describe an
+    efficient implementation of our method and cast it as an instance of
+    relation-aware self-attention mechanisms that can generalize to arbitrary
+    graph-labeled inputs.
+  }
+}
+@inproceedings{Gehring2017APE,
+  title        = {Convolutional Sequence to Sequence Learning},
+  author       = {
+    Gehring, Jonas and Auli, Michael and Grangier, David and Yarats, Denis and
+    Dauphin, Yann N.
+  },
+  year         = 2017,
+  month        = {06--11 Aug},
+  booktitle    = {Proceedings of the 34th International Conference on Machine Learning},
+  publisher    = {PMLR},
+  series       = {Proceedings of Machine Learning Research},
+  volume       = 70,
+  pages        = {1243--1252},
+  url          = {https://proceedings.mlr.press/v70/gehring17a.html},
+  editor       = {Precup, Doina and Teh, Yee Whye},
+  pdf          = {http://proceedings.mlr.press/v70/gehring17a/gehring17a.pdf},
+  abstract     = {
+    The prevalent approach to sequence to sequence learning maps an input
+    sequence to a variable length output sequence via recurrent neural
+    networks. We introduce an architecture based entirely on convolutional
+    neural networks. Compared to recurrent models, computations over all
+    elements can be fully parallelized during training to better exploit the
+    GPU hardware and optimization is easier since the number of non-linearities
+    is fixed and independent of the input length. Our use of gated linear units
+    eases gradient propagation and we equip each decoder layer with a separate
+    attention module. We outperform the accuracy of the deep LSTM setup of Wu
+    et al. (2016) on both WMT’14 English-German and WMT’14 English-French
+    translation at an order of magnitude faster speed, both on GPU and CPU.
+  }
 }
 @inproceedings{Vaswani2017Transformer,
   title        = {Attention is All you Need},
