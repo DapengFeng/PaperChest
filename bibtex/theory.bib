@@ -1,3 +1,14 @@
+@inproceedings{Ding2022LargeKernelDesign,
+  title        = {Scaling Up Your Kernels to 31x31: Revisiting Large Kernel Design in CNNs},
+  author       = {Ding, Xiaohan and Zhang, Xiangyu and Han, Jungong and Ding, Guiguang},
+  year         = 2022,
+  month        = {June},
+  booktitle    = {
+    Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern
+    Recognition (CVPR)
+  },
+  pages        = {11963--11975}
+}
 @inproceedings{Wang2021PE-BERT,
   title        = {On Position Embeddings in BERT},
   author       = {
@@ -7,6 +18,16 @@
   year         = 2021,
   booktitle    = {International Conference on Learning Representations},
   url          = {https://openreview.net/forum?id=onxoVA9FxMw}
+}
+@inproceedings{Alsallakh2021MindThePad,
+  title        = {Mind the Pad -- CNNs Can Develop Blind Spots},
+  author       = {
+    Bilal Alsallakh and Narine Kokhlikyan and Vivek Miglani and Jun Yuan and
+    Orion Reblitz-Richardson
+  },
+  year         = 2021,
+  booktitle    = {International Conference on Learning Representations},
+  url          = {https://openreview.net/forum?id=m1CD7tPubNy}
 }
 @inproceedings{Dosovitskiy2021ViT,
   title        = {An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale},
@@ -19,6 +40,18 @@
   year         = 2021,
   booktitle    = {International Conference on Learning Representations},
   url          = {https://openreview.net/forum?id=YicbFdNTTy}
+}
+@article{Islam2021Position,
+  title        = {
+    Position, padding and predictions: A deeper look at position information in
+    cnns
+  },
+  author       = {
+    Islam, Md Amirul and Kowal, Matthew and Jia, Sen and Derpanis, Konstantinos
+    G and Bruce, Neil DB
+  },
+  year         = 2021,
+  journal      = {arXiv preprint arXiv:2101.12322}
 }
 @inproceedings{Narang2021Transformer,
   title        = {
@@ -92,6 +125,36 @@
     https://github.com/microsoft/Cream/tree/main/iRPE.
   }
 }
+@inproceedings{Xu2021PEinGANs,
+  title        = {Positional Encoding as Spatial Inductive Bias in GANs},
+  author       = {
+    Xu, Rui and Wang, Xintao and Chen, Kai and Zhou, Bolei and Loy, Chen Change
+  },
+  year         = 2021,
+  month        = {June},
+  booktitle    = {2021 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+  pages        = {13564--13573},
+  doi          = {10.1109/CVPR46437.2021.01336},
+  issn         = {2575-7075},
+  abstract     = {
+    SinGAN shows impressive capability in learning internal patch distribution
+    despite its limited effective receptive field. We are interested in knowing
+    how such a translationinvariant convolutional generator could capture the
+    global structure with just a spatially i.i.d. input. In this work, taking
+    SinGAN and StyleGAN2 as examples, we show that such capability, to a large
+    extent, is brought by the implicit positional encoding when using zero
+    padding in the generators. Such positional encoding is indispensable for
+    generating images with high fidelity. The same phenomenon is observed in
+    other generative architectures such as DCGAN and PGGAN. We further show
+    that zero padding leads to an unbalanced spatial bias with a vague relation
+    between locations. To offer a better spatial inductive bias, we investigate
+    alternative positional encodings and analyze their effects. Based on a more
+    flexible positional encoding explicitly, we propose a new multi-scale
+    training strategy and demonstrate its effectiveness in the state-of-the-art
+    unconditional generator StyleGAN2. Besides, the explicit spatial inductive
+    bias substantially improves SinGAN for more versatile image manipulation. 1
+  }
+}
 @inproceedings{He2021DEBERTA,
   title        = {DeBERTa: Decoding-enhanced BERT with Disentangled Attention},
   author       = {He, Pengcheng and Liu, Xiaodong and Gao, Jianfeng and Chen, Weizhu},
@@ -152,16 +215,19 @@
     networks and CVNNs with fixed activation functions.
   }
 }
+@inproceedings{Wang2020EncodingWorderOrder,
+  title        = {Encoding word order in complex embeddings},
+  author       = {
+    Wang, Benyou and Zhao, Donghao and Lioma, Christina and Li, Qiuchi and
+    Zhang, Peng and Simonsen, Jakob Grue
+  },
+  year         = 2020,
+  booktitle    = {International Conference on Learning Representations},
+  url          = {https://openreview.net/forum?id=Hke-WTVtwr}
+}
 @inproceedings{Islam2020PosENet,
   title        = {How much Position Information Do Convolutional Neural Networks Encode?},
   author       = {Islam, Md Amirul and Jia, Sen and Bruce, Neil D. B.},
-  year         = 2020,
-  booktitle    = {International Conference on Learning Representations},
-  url          = {https://openreview.net/forum?id=rJeB36NKvB}
-}
-@inproceedings{Islam2020How,
-  title        = {How much Position Information Do Convolutional Neural Networks Encode?},
-  author       = {Islam, Md Amirul and Jia, Sen and Neil D. B. Bruce},
   year         = 2020,
   booktitle    = {International Conference on Learning Representations},
   url          = {https://openreview.net/forum?id=rJeB36NKvB}
@@ -204,6 +270,33 @@
     methods. We evaluate our new position layers on a variety of neural machine
     translation and language understanding tasks, the experimental results show
     consistent improvements over the baselines.
+  }
+}
+@inproceedings{SemihKayhan2020ASLConv,
+  title        = {
+    On Translation Invariance in CNNs: Convolutional Layers Can Exploit
+    Absolute Spatial Location
+  },
+  author       = {Semih Kayhan, Osman and van Gemert, Jan C.},
+  year         = 2020,
+  month        = {June},
+  booktitle    = {2020 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+  pages        = {14262--14273},
+  doi          = {10.1109/CVPR42600.2020.01428},
+  issn         = {2575-7075},
+  abstract     = {
+    In this paper we challenge the common assumption that convolutional layers
+    in modern CNNs are translation invariant. We show that CNNs can and will
+    exploit the absolute spatial location by learning filters that respond
+    exclusively to particular absolute locations by exploiting image boundary
+    effects. Because modern CNNs filters have a huge receptive field, these
+    boundary effects operate even far from the image boundary, allowing the
+    network to exploit absolute spatial location all over the image. We give a
+    simple solution to remove spatial location encoding which improves
+    translation invariance and thus gives a stronger visual inductive bias
+    which particularly benefits small data sets. We broadly demonstrate these
+    benefits on several architectures and various applications such as image
+    classification, patch matching, and two video classification datasets.
   }
 }
 @inproceedings{Dai2019Transformer-XL,
@@ -435,6 +528,16 @@
   },
   editor       = {C. Cortes and N. Lawrence and D. Lee and M. Sugiyama and R. Garnett}
 }
+@article{Reichert2013Neuronal,
+  title        = {Neuronal Synchrony in Complex-Valued Deep Networks},
+  author       = {Reichert, David P. and Serre, Thomas},
+  year         = 2013,
+  journal      = {International Conference On Learning Representations},
+  bibsource    = {
+    Semantic Scholar
+    https://www.semanticscholar.org/paper/7c5920c97f8bb1f91739b0d27746d655de95eedd
+  }
+}
 @inproceedings{Sutskever2013SGD,
   title        = {On the importance of initialization and momentum in deep learning},
   author       = {Sutskever, Ilya and Martens, James and Dahl, George and Hinton, Geoffrey},
@@ -468,5 +571,14 @@
     momentum methods suffice for dealing with the curvature issues in deep and
     recurrent network training objectives without the need for sophisticated
     second-order methods.
+  }
+}
+@article{Goto1954Parametron,
+  title        = {The parametron--A new circuit element which utilizes non-linear reactors},
+  author       = {Goto, Eiichi},
+  year         = 1954,
+  journal      = {
+    Paper of Technical Group of Electronic Computers and Nonlinear Theory, IECE
+    (July 1954)(in Japanese)
   }
 }
