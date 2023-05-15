@@ -336,12 +336,74 @@
     are available in both Tensorflow and PyTorch.
   }
 }
+@inproceedings{Li2019CNM,
+  title        = {CNM: An Interpretable Complex-valued Network for Matching},
+  author       = {Li, Qiuchi  and Wang, Benyou  and Melucci, Massimo},
+  year         = 2019,
+  month        = jun,
+  booktitle    = {
+    Proceedings of the 2019 Conference of the North {A}merican Chapter of the
+    Association for Computational Linguistics: Human Language Technologies,
+    Volume 1 (Long and Short Papers)
+  },
+  publisher    = {Association for Computational Linguistics},
+  address      = {Minneapolis, Minnesota},
+  pages        = {4139--4148},
+  doi          = {10.18653/v1/N19-1420},
+  url          = {https://aclanthology.org/N19-1420},
+  abstract     = {
+    This paper seeks to model human language by the mathematical framework of
+    quantum physics. With the well-designed mathematical formulations in
+    quantum physics, this framework unifies different linguistic units in a
+    single complex-valued vector space, e.g. words as particles in quantum
+    states and sentences as mixed systems. A complex-valued network is built to
+    implement this framework for semantic matching. With well-constrained
+    complex-valued components, the network admits interpretations to explicit
+    physical meanings. The proposed complex-valued network for matching (CNM)
+    achieves comparable performances to strong CNN and RNN baselines on two
+    benchmarking question answering (QA) datasets.
+  }
+}
 @inproceedings{Loshchilov2018AdamW,
   title        = {Decoupled Weight Decay Regularization},
   author       = {Loshchilov, Ilya and Hutter, Frank},
   year         = 2019,
   booktitle    = {International Conference on Learning Representations},
   url          = {https://openreview.net/forum?id=Bkg6RiCqY7}
+}
+@inproceedings{Wang2019QPDN,
+  title        = {Semantic Hilbert Space for Text Representation Learning},
+  author       = {Wang, Benyou and Li, Qiuchi and Melucci, Massimo and Song, Dawei},
+  year         = 2019,
+  booktitle    = {The World Wide Web Conference},
+  location     = {San Francisco, CA, USA},
+  publisher    = {Association for Computing Machinery},
+  address      = {New York, NY, USA},
+  series       = {WWW '19},
+  pages        = {3293–3299},
+  doi          = {10.1145/3308558.3313516},
+  isbn         = 9781450366748,
+  url          = {https://doi.org/10.1145/3308558.3313516},
+  abstract     = {
+    Capturing the meaning of sentences has long been a challenging task.
+    Current models tend to apply linear combinations of word features to
+    conduct semantic composition for bigger-granularity units e.g. phrases,
+    sentences, and documents. However, the semantic linearity does not always
+    hold in human language. For instance, the meaning of the phrase “ivory
+    tower” cannot be deduced by linearly combining the meanings of “ivory” and
+    “tower”. To address this issue, we propose a new framework that models
+    different levels of semantic units (e.g. sememe, word, sentence, and
+    semantic abstraction) on a single Semantic Hilbert Space, which naturally
+    admits a non-linear semantic composition by means of a complex-valued
+    vector word representation. An end-to-end neural network 1 is proposed to
+    implement the framework in the text classification task, and evaluation
+    results on six benchmarking text classification datasets demonstrate the
+    effectiveness, robustness and self-explanation power of the proposed model.
+    Furthermore, intuitive case studies are conducted to help end users to
+    understand how the framework works.
+  },
+  numpages     = 7,
+  keywords     = {text understanding, neural network, quantum theory}
 }
 @inproceedings{Chen2018GradNorm,
   title        = {
@@ -382,6 +444,20 @@
     of multitask networks and may be one of the keys to unlocking the potential
     of multitask learning.
   }
+}
+@inproceedings{Parcollet2018QCNN,
+  title        = {
+    {Quaternion Convolutional Neural Networks for End-to-End Automatic Speech
+    Recognition}
+  },
+  author       = {
+    Parcollet, Titouan and Zhang, Ying and Morchid, Mohamed and Trabelsi,
+    Chiheb and Linares, Georges and {de Mori}, Renato and Bengio, Yoshua
+  },
+  year         = 2018,
+  booktitle    = {Proc. Interspeech 2018},
+  pages        = {22--26},
+  doi          = {10.21437/Interspeech.2018-1898}
 }
 @inproceedings{Trabelsi2018DCN,
   title        = {Deep Complex Networks},
@@ -513,6 +589,77 @@
     S. Vishwanathan and R. Garnett
   }
 }
+@inproceedings{Trouillon2016ComplEx,
+  title        = {Complex Embeddings for Simple Link Prediction},
+  author       = {
+    Trouillon, Théo and Welbl, Johannes and Riedel, Sebastian and Gaussier,
+    Eric and Bouchard, Guillaume
+  },
+  year         = 2016,
+  month        = {20--22 Jun},
+  booktitle    = {Proceedings of The 33rd International Conference on Machine Learning},
+  publisher    = {PMLR},
+  address      = {New York, New York, USA},
+  series       = {Proceedings of Machine Learning Research},
+  volume       = 48,
+  pages        = {2071--2080},
+  url          = {https://proceedings.mlr.press/v48/trouillon16.html},
+  editor       = {Balcan, Maria Florina and Weinberger, Kilian Q.},
+  pdf          = {http://proceedings.mlr.press/v48/trouillon16.pdf},
+  abstract     = {
+    In statistical relational learning, the link prediction problem is key to
+    automatically understand the structure of large knowledge bases. As in
+    previous studies, we propose to solve this problem through latent
+    factorization. However, here we make use of complex valued embeddings. The
+    composition of complex embeddings can handle a large variety of binary
+    relations, among them symmetric and antisymmetric relations. Compared to
+    state-of-the-art models such as Neural Tensor Network and Holographic
+    Embeddings, our approach based on complex embeddings is arguably simpler,
+    as it only uses the Hermitian dot product, the complex counterpart of the
+    standard dot product between real vectors. Our approach is scalable to
+    large datasets as it remains linear in both space and time, while
+    consistently outperforming alternative approaches on standard link
+    prediction benchmarks.
+  }
+}
+@inproceedings{Wisdom2016uRNN,
+  title        = {Full-Capacity Unitary Recurrent Neural Networks},
+  author       = {
+    Wisdom, Scott and Powers, Thomas and Hershey, John and Le Roux, Jonathan
+    and Atlas, Les
+  },
+  year         = 2016,
+  booktitle    = {Advances in Neural Information Processing Systems},
+  publisher    = {Curran Associates, Inc.},
+  volume       = 29,
+  url          = {
+    https://proceedings.neurips.cc/paper_files/paper/2016/file/d9ff90f4000eacd3a6c9cb27f78994cf-Paper.pdf
+  },
+  editor       = {D. Lee and M. Sugiyama and U. Luxburg and I. Guyon and R. Garnett}
+}
+@inproceedings{Popa2016OVNN,
+  title        = {Octonion-Valued Neural Networks},
+  author       = {Popa, C{\u{a}}lin-Adrian},
+  year         = 2016,
+  booktitle    = {Artificial Neural Networks and Machine Learning -- ICANN 2016},
+  publisher    = {Springer International Publishing},
+  address      = {Cham},
+  pages        = {435--443},
+  isbn         = {978-3-319-44778-0},
+  editor       = {Villa, Alessandro E.P. and Masulli, Paolo and Pons Rivero, Antonio Javier},
+  abstract     = {
+    Neural networks with values in multidimensional domains have been
+    intensively studied over the last few years. This paper introduces
+    octonion-valued neural networks, for which the inputs, outputs, weights and
+    biases are all octonions. They represent a generalization of the complex-
+    and quaternion-valued neural networks, that do not fall into the category
+    of Clifford-valued neural networks, because, unlike Clifford algebras, the
+    octonion algebra is not associative. The full deduction of the gradient
+    descent algorithm for training octonion-valued feedforward neural networks
+    is presented. Testing of the proposed network is done using two synthetic
+    function approximation problems and a time series prediction application.
+  }
+}
 @inproceedings{Jaderberg2015STN,
   title        = {Spatial Transformer Networks},
   author       = {
@@ -571,6 +718,99 @@
     momentum methods suffice for dealing with the curvature issues in deep and
     recurrent network training objectives without the need for sophisticated
     second-order methods.
+  }
+}
+@article{Buchholz2008CliffordNN,
+  title        = {On Clifford neurons and Clifford multi-layer perceptrons},
+  author       = {Buchholz, Sven and Sommer, Gerald},
+  year         = 2008,
+  journal      = {Neural Networks},
+  volume       = 21,
+  number       = 7,
+  pages        = {925--935},
+  doi          = {https://doi.org/10.1016/j.neunet.2008.03.004},
+  issn         = {0893-6080},
+  url          = {https://www.sciencedirect.com/science/article/pii/S0893608008000592},
+  keywords     = {
+    Clifford (geometric) algebra, Clifford neural networks, Clifford neurons,
+    Multi-layer perceptrons, Backpropagation, Function approximation
+  },
+  abstract     = {
+    We study the framework of Clifford algebra for the design of neural
+    architectures capable of processing different geometric entities. The
+    benefits of this model-based computation over standard real-valued networks
+    are demonstrated. One particular example thereof is the new class of
+    so-called Spinor Clifford neurons. The paper provides a sound theoretical
+    basis to Clifford neural computation. For that purpose the new concepts of
+    isomorphic neurons and isomorphic representations are introduced. A unified
+    training rule for Clifford MLPs is also provided. The topic of activation
+    functions for Clifford MLPs is discussed in detail for all two-dimensional
+    Clifford algebras for the first time.
+  }
+}
+@article{Nitta2004DecisionBoundary,
+  title        = {{Orthogonality of Decision Boundaries in Complex-Valued Neural Networks}},
+  author       = {Nitta, Tohru},
+  year         = 2004,
+  month        = {01},
+  journal      = {Neural Computation},
+  volume       = 16,
+  number       = 1,
+  pages        = {73--97},
+  doi          = {10.1162/08997660460734001},
+  issn         = {0899-7667},
+  url          = {https://doi.org/10.1162/08997660460734001},
+  abstract     = {
+    {This letter presents some results of an analysis on the decision
+    boundaries of complex-valued neural networks whose weights, threshold
+    values, input and output signals are all complex numbers. The main results
+    may be summarized as follows. (1) A decision boundary of a single
+    complex-valued neuron consists of two hypersurfaces that intersect
+    orthogonally, and divides a decision region into four equal sections. The
+    XOR problem and the detection of symmetry problem that cannot be solved
+    with two-layered real-valued neural networks, can be solved by two-layered
+    complex-valued neural networks with the orthogonal decision boundaries,
+    which reveals a potent computational power of complex-valued neural nets.
+    Furthermore, the fading equalization problem can be successfully solved by
+    the two-layered complex-valued neural network with the highest
+    generalization ability. (2) A decision boundary of a three-layered
+    complex-valued neural network has the orthogonal property as a basic
+    structure, and its two hypersurfaces approach orthogonality as all the net
+    inputs to each hidden neuron grow. In particular, most of the decision
+    boundaries in the three-layered complex-valued neural network inetersect
+    orthogonally when the network is trained using Complex-BP algorithm. As a
+    result, the orthogonality of the decision boundaries improves its
+    generalization ability. (3) The average of the learning speed of the
+    Complex-BP is several times faster than that of the Real-BP. The standard
+    deviation of the learning speed of the Complex-BP is smaller than that of
+    the Real-BP. It seems that the complex-valued neural network and the
+    related algorithm are natural for learning complex-valued patterns for the
+    above reasons.}
+  },
+  eprint       = {
+    https://direct.mit.edu/neco/article-pdf/16/1/73/815724/08997660460734001.pdf
+  }
+}
+@inproceedings{Isokawa2003QNN,
+  title        = {Quaternion Neural Network and Its Application},
+  author       = {
+    Isokawa, Teijiro and Kusakabe, Tomoaki and Matsui, Nobuyuki and Peper,
+    Ferdinand
+  },
+  year         = 2003,
+  booktitle    = {Knowledge-Based Intelligent Information and Engineering Systems},
+  publisher    = {Springer Berlin Heidelberg},
+  address      = {Berlin, Heidelberg},
+  pages        = {318--324},
+  isbn         = {978-3-540-45226-3},
+  editor       = {Palade, Vasile and Howlett, Robert J. and Jain, Lakhmi},
+  abstract     = {
+    Quaternion neural networks are models of which computations in the neurons
+    is based on quaternions, the four-dimensional equivalents of imaginary
+    numbers. This paper shows by experiments that the quaternion-version of the
+    Back Propagation (BP) algorithm achieves correct geometrical
+    transformations in color space for an image compression problem, whereas
+    real-valued BP algorithms fail.
   }
 }
 @article{Goto1954Parametron,
