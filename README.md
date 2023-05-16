@@ -149,7 +149,8 @@
 - **All-optical machine learning using diffractive deep neural networks**, (2018) [[DOI]](https://doi.org/10.1126/science.aat8084)  [[bib]](bibtex/chip.bib#L1-L40) 
 - **Path Aggregation Network for Instance Segmentation**, (2018) [[DOI]](https://doi.org/10.1109/CVPR.2018.00913)  [[bib]](bibtex/segmentation.bib#L1-L27) 
 - **DOTA: A Large-Scale Dataset for Object Detection in Aerial Images**, (2018) [[DOI]](https://doi.org/10.1109/CVPR.2018.00418)  [[bib]](bibtex/dataset.bib#L37-L71) 
-- **SECOND: Sparsely Embedded Convolutional Detection**, (2018) [[DOI]](https://doi.org/10.3390/s18103337)  [[bib]](bibtex/object-detection.bib#L484-L511) 
+- **Group Normalization**, (2018) [[bib]](bibtex/object-detection.bib#L484-L518) 
+- **SECOND: Sparsely Embedded Convolutional Detection**, (2018) [[DOI]](https://doi.org/10.3390/s18103337)  [[bib]](bibtex/object-detection.bib#L519-L546) 
 - **Functional Map of the World**, (2018) [[DOI]](https://doi.org/10.1109/CVPR.2018.00646)  [[bib]](bibtex/remote-sensing.bib#L1218-L1241) 
 - **{G}rad{N}orm: Gradient Normalization for Adaptive Loss Balancing in Deep Multitask Networks**, (2018) [[bib]](bibtex/theory.bib#L408-L447) 
 - **{Quaternion Convolutional Neural Networks for End-to-End Automatic Speech Recognition}**, (2018) [[DOI]](https://doi.org/10.21437/Interspeech.2018-1898)  [[bib]](bibtex/theory.bib#L448-L461) 
@@ -160,7 +161,7 @@
 
 ## Papers in 2017
 - **Harmonic Networks: Deep Translation and Rotation Equivariance**, (2017) [[DOI]](https://doi.org/10.1109/CVPR.2017.758)  [[bib]](bibtex/equivariance.bib#L86-L116) 
-- **Feature Pyramid Networks for Object Detection**, (2017) [[DOI]](https://doi.org/10.1109/CVPR.2017.106)  [[bib]](bibtex/object-detection.bib#L512-L542) 
+- **Feature Pyramid Networks for Object Detection**, (2017) [[DOI]](https://doi.org/10.1109/CVPR.2017.106)  [[bib]](bibtex/object-detection.bib#L547-L577) 
 - **Monocular Visual–Inertial State Estimation With Online Initialization and Camera–IMU Extrinsic Calibration**, (2017) [[DOI]](https://doi.org/10.1109/TASE.2016.2550621)  [[bib]](bibtex/hardware-synchronization.bib#L64-L99) 
 - **{Metric Evaluation Pipeline for 3d Modeling of Urban Scenes}**, (2017) [[DOI]](https://doi.org/10.5194/isprs-archives-XLII-1-W1-239-2017)  [[bib]](bibtex/remote-sensing.bib#L1242-L1259) 
 - **An overview of current and potential applications of thermal remote sensing in precision agriculture**, (2017) [[DOI]](https://doi.org/https://doi.org/10.1016/j.compag.2017.05.001)  [[bib]](bibtex/remote-sensing.bib#L1260-L1304) 
