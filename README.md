@@ -155,8 +155,9 @@
 - **{G}rad{N}orm: Gradient Normalization for Adaptive Loss Balancing in Deep Multitask Networks**, (2018) [[bib]](bibtex/theory.bib#L408-L447) 
 - **{Quaternion Convolutional Neural Networks for End-to-End Automatic Speech Recognition}**, (2018) [[DOI]](https://doi.org/10.21437/Interspeech.2018-1898)  [[bib]](bibtex/theory.bib#L448-L461) 
 - **Deep Complex Networks**, (2018) [[bib]](bibtex/theory.bib#L462-L472) 
-- **Neural Tangent Kernel: Convergence and Generalization in Neural Networks**, (2018) [[bib]](bibtex/theory.bib#L473-L509) 
-- **Self-Attention with Relative Position Representations**, (2018) [[DOI]](https://doi.org/10.18653/v1/N18-2074)  [[bib]](bibtex/theory.bib#L510-L543) 
+- **Deep learning using rectified linear units (relu)**, (2018) [[bib]](bibtex/theory.bib#L473-L478) 
+- **Neural Tangent Kernel: Convergence and Generalization in Neural Networks**, (2018) [[bib]](bibtex/theory.bib#L479-L515) 
+- **Self-Attention with Relative Position Representations**, (2018) [[DOI]](https://doi.org/10.18653/v1/N18-2074)  [[bib]](bibtex/theory.bib#L516-L549) 
 - **Space-Air-Ground Integrated Network: A Survey**, (2018) [[DOI]](https://doi.org/10.1109/COMST.2018.2841996)  [[bib]](bibtex/sagin.bib#L1-L34) 
 
 ## Papers in 2017
@@ -165,35 +166,40 @@
 - **Monocular Visual–Inertial State Estimation With Online Initialization and Camera–IMU Extrinsic Calibration**, (2017) [[DOI]](https://doi.org/10.1109/TASE.2016.2550621)  [[bib]](bibtex/hardware-synchronization.bib#L64-L99) 
 - **{Metric Evaluation Pipeline for 3d Modeling of Urban Scenes}**, (2017) [[DOI]](https://doi.org/10.5194/isprs-archives-XLII-1-W1-239-2017)  [[bib]](bibtex/remote-sensing.bib#L1242-L1259) 
 - **An overview of current and potential applications of thermal remote sensing in precision agriculture**, (2017) [[DOI]](https://doi.org/https://doi.org/10.1016/j.compag.2017.05.001)  [[bib]](bibtex/remote-sensing.bib#L1260-L1304) 
-- **Convolutional Sequence to Sequence Learning**, (2017) [[bib]](bibtex/theory.bib#L544-L573) 
-- **Attention is All you Need**, (2017) [[bib]](bibtex/theory.bib#L574-L591) 
+- **Convolutional Sequence to Sequence Learning**, (2017) [[bib]](bibtex/theory.bib#L550-L579) 
+- **Attention is All you Need**, (2017) [[bib]](bibtex/theory.bib#L580-L597) 
 
 ## Papers in 2016
 - **Structure-from-Motion Revisited**, (2016) [[DOI]](https://doi.org/10.1109/CVPR.2016.445)  [[bib]](bibtex/3d-reconstruction.bib#L463-L482) 
 - **Steerable CNNs**, (2016) [[DOI]](https://doi.org/10.48550/ARXIV.1612.08498)  [[bib]](bibtex/equivariance.bib#L117-L129) 
-- **Complex Embeddings for Simple Link Prediction**, (2016) [[bib]](bibtex/theory.bib#L592-L624) 
-- **Full-Capacity Unitary Recurrent Neural Networks**, (2016) [[bib]](bibtex/theory.bib#L625-L639) 
-- **Octonion-Valued Neural Networks**, (2016) [[bib]](bibtex/theory.bib#L640-L662) 
+- **Deep Residual Learning for Image Recognition**, (2016) [[DOI]](https://doi.org/10.1109/CVPR.2016.90)  [[bib]](bibtex/object-detection.bib#L578-L607) 
+- **Complex Embeddings for Simple Link Prediction**, (2016) [[bib]](bibtex/theory.bib#L598-L630) 
+- **Full-Capacity Unitary Recurrent Neural Networks**, (2016) [[bib]](bibtex/theory.bib#L631-L645) 
+- **Layer normalization**, (2016) [[bib]](bibtex/theory.bib#L646-L651) 
+- **Gaussian error linear units (gelus)**, (2016) [[bib]](bibtex/theory.bib#L652-L657) 
+- **Octonion-Valued Neural Networks**, (2016) [[bib]](bibtex/theory.bib#L658-L680) 
 
 ## Papers in 2015
-- **Spatial Transformer Networks**, (2015) [[bib]](bibtex/theory.bib#L663-L677) 
+- **Spatial Transformer Networks**, (2015) [[bib]](bibtex/theory.bib#L681-L695) 
+- **Batch Normalization: Accelerating Deep Network Training by Reducing Internal Covariate Shift**, (2015) [[bib]](bibtex/theory.bib#L696-L732) 
 
 ## Papers in 2013
-- **Neuronal Synchrony in Complex-Valued Deep Networks**, (2013) [[bib]](bibtex/theory.bib#L678-L687) 
-- **On the importance of initialization and momentum in deep learning**, (2013) [[bib]](bibtex/theory.bib#L688-L722) 
+- **Neuronal Synchrony in Complex-Valued Deep Networks**, (2013) [[bib]](bibtex/theory.bib#L733-L742) 
+- **On the importance of initialization and momentum in deep learning**, (2013) [[bib]](bibtex/theory.bib#L743-L777) 
 
 ## Papers in 2009
 - **Building Rome in a day**, (2009) [[DOI]](https://doi.org/10.1109/ICCV.2009.5459148)  [[bib]](bibtex/3d-reconstruction.bib#L483-L509) 
 - **ImageNet: A large-scale hierarchical image database**, (2009) [[DOI]](https://doi.org/10.1109/CVPR.2009.5206848)  [[bib]](bibtex/dataset.bib#L72-L106) 
+- **The complex gradient operator and the CR-calculus**, (2009) [[bib]](bibtex/theory.bib#L778-L783) 
 
 ## Papers in 2008
-- **On Clifford neurons and Clifford multi-layer perceptrons**, (2008) [[DOI]](https://doi.org/https://doi.org/10.1016/j.neunet.2008.03.004)  [[bib]](bibtex/theory.bib#L723-L750) 
+- **On Clifford neurons and Clifford multi-layer perceptrons**, (2008) [[DOI]](https://doi.org/https://doi.org/10.1016/j.neunet.2008.03.004)  [[bib]](bibtex/theory.bib#L784-L811) 
 
 ## Papers in 2004
-- **{Orthogonality of Decision Boundaries in Complex-Valued Neural Networks}**, (2004) [[DOI]](https://doi.org/10.1162/08997660460734001)  [[bib]](bibtex/theory.bib#L751-L793) 
+- **{Orthogonality of Decision Boundaries in Complex-Valued Neural Networks}**, (2004) [[DOI]](https://doi.org/10.1162/08997660460734001)  [[bib]](bibtex/theory.bib#L812-L854) 
 
 ## Papers in 2003
-- **Quaternion Neural Network and Its Application**, (2003) [[bib]](bibtex/theory.bib#L794-L815) 
+- **Quaternion Neural Network and Its Application**, (2003) [[bib]](bibtex/theory.bib#L855-L876) 
 
 ## Papers in 1954
-- **The parametron--A new circuit element which utilizes non-linear reactors**, (1954) [[bib]](bibtex/theory.bib#L816-L824) 
+- **The parametron--A new circuit element which utilizes non-linear reactors**, (1954) [[bib]](bibtex/theory.bib#L877-L885) 
