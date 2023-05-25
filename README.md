@@ -196,7 +196,7 @@
 - **On Clifford neurons and Clifford multi-layer perceptrons**, (2008) [[DOI]](https://doi.org/https://doi.org/10.1016/j.neunet.2008.03.004)  [[bib]](bibtex/theory.bib#L784-L811) 
 
 ## Papers in 2004
-- **{Orthogonality of Decision Boundaries in Complex-Valued Neural Networks}**, (2004) [[DOI]](https://doi.org/10.1162/08997660460734001)  [[bib]](bibtex/theory.bib#L812-L854) 
+- **Orthogonality of Decision Boundaries in Complex-Valued Neural Networks**, (2004) [[DOI]](https://doi.org/10.1162/08997660460734001)  [[bib]](bibtex/theory.bib#L812-L854) 
 
 ## Papers in 2003
 - **Quaternion Neural Network and Its Application**, (2003) [[bib]](bibtex/theory.bib#L855-L876) 
